@@ -11,12 +11,15 @@ data
 data/
 stanza_resources/
 stanza_test/
+stanza/
+UD_*/
+!UD_English-CHILDES/
 saved_models/
 logs/
 log/
 *_test_treebanks
 wandb/
-UD_*
+
 params/*/*.json
 !params/*/default.json
 
@@ -180,4 +183,6 @@ _site/
 
 # symlink / directory for data files
 extern_data
-supar_env/
+supar_env_new/
+
+

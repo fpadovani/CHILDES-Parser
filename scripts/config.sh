@@ -35,8 +35,8 @@
 # $DATA_ROOT is a default home for where all the outputs from the
 #   preparation scripts will go.  The training scripts will then look
 #   for the stanza formatted data in that directory.
-export UDBASE=/Users/frapadovani/Desktop/stanza/UD_English-CHILDES/
-export DATA_ROOT=/Users/frapadovani/Desktop/stanza/UD_English-CHILDES
+export UDBASE=/Users/frapadovani/Desktop/stanza
+export DATA_ROOT=./data
 export TOKENIZE_DATA_DIR=$DATA_ROOT/tokenize
 export MWT_DATA_DIR=$DATA_ROOT/mwt
 export LEMMA_DATA_DIR=$DATA_ROOT/lemma

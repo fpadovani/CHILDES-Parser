@@ -49,14 +49,14 @@ def load_conllu_gold(path):
 def evaluate_parsers_overall(test_path, nlp_stanza_childes, log_predictions=False, log_path="parser_predictions"):
     results = {}
 
-    stanza.download('en')
-    nlp_tok = stanza.Pipeline('en', processors='tokenize')
-    #nlp_spacy_eng = spacy.load("en_core_web_sm")
-
     parsers = {
-        #"Supar_Childes_biaffine": Parser.load('/Users/frapadovani/Desktop/stanza/parser/biaffine_childes/model_biaffine_childes'),
-        #"Supar_Childes_crf": Parser.load('/Users/frapadovani/Desktop/stanza/parser/crf_childes/model_crf_childes'),
-        "Supar_Combined_eng_biaffine": Parser.load('/Users/frapadovani/Desktop/stanza/parser/biaffine_combined/model_biaffine_combined'),
+        "Supar_Childes_biaffine": Parser.load('/Users/frapadovani/Desktop/CHILDES-Parser/parser/biaffine_childes/b_childes_new'),
+        "Supar_Childes_crf": Parser.load('/Users/frapadovani/Desktop/CHILDES-Parser/parser/crf_childes/model_crf_childes'),
+        "Supar_Combined_eng_biaffine": Parser.load('/Users/frapadovani/Desktop/CHILDES-Parser/parser/biaffine_combined/biaffine_combined'),
+        "Supar_Combined_eng_crf": Parser.load('/Users/frapadovani/Desktop/CHILDES-Parser/parser/crf_combined/crf_combined'),
+        "Supar_finetuned_onlygolden_crf": Parser.load('/Users/frapadovani/Desktop/CHILDES-Parser/parser/crf_combined_finetuned_only_golden/crf_combined_finetuned'),
+        "Supar_finetuned_complete_biaffine": Parser.load('/Users/frapadovani/Desktop/CHILDES-Parser/parser/biaffine_combined_finetuned/model_biaffine_combined_finetuned'),
+        #"Supar_finetuned_complete_crf": Parser.load('/Users/frapadovani/Desktop/stanza/parser/crf_combined_finetuned/model_crf_combined_finetuned'),
         #"Stanza_off_the_shelf": stanza.Pipeline(lang='en', processors='tokenize,pos,lemma,depparse', use_gpu=True),
         #"Stanza_Custom": nlp_stanza_childes,
 
@@ -102,21 +102,19 @@ def evaluate_parsers_overall(test_path, nlp_stanza_childes, log_predictions=Fals
                             "head": int(word.head) if getattr(word, "head", None) is not None else 0,
                             "deprel": word.deprel
                         })
-            elif parser_name in ["Supar_Childes_biaffine", "Supar_Childes_crf", "Supar_Combined_eng_biaffine"]:
+            elif parser_name in ["Supar_Childes_biaffine", "Supar_Childes_crf", "Supar_Combined_eng_biaffine", "Supar_Combined_eng_crf", "Supar_finetuned_biaffine", "Supar_finetuned_crf"]:
                 pred_tokens = []
-                # Tokenize
-                doc = nlp_tok(gold_text)
-                tokens = [word.text for sent in doc.sentences for word in sent.words]
-                dataset = nlp.predict([tokens])
-                for sent in dataset.sentences:  # iterate sentences
-                    for word, arc, rel in zip(sent.words, sent.arcs, sent.rels):  # iterate tokens
-                        pred_tokens.append({
-                            "form": word,
-                            "upos": '',
-                            "xpos": '',
-                            "head": arc,
-                            "deprel": rel
-                        })
+          
+                dataset = nlp.predict(gold_text, lang= 'en', prob = False, verbose = False)
+                sent = dataset[0]
+                for word, arc, rel in zip(sent.words, sent.arcs, sent.rels):  # iterate tokens
+                    pred_tokens.append({
+                        "form": word,
+                        "upos": '',
+                        "xpos": '',
+                        "head": arc,
+                        "deprel": rel
+                    })
             else:
                 doc = nlp(gold_text)
                 pred_tokens = []
@@ -138,6 +136,7 @@ def evaluate_parsers_overall(test_path, nlp_stanza_childes, log_predictions=Fals
                 pairs = list(zip(gold_tokens, pred_tokens))
 
             else:
+                ### THIS PART IS ONLY FOR SPACY MODELS ###
                 pred_idx = 0
                 for g in gold_tokens:
                     g_norm = _normalize_form(g["form"])
@@ -251,9 +250,9 @@ def evaluate_parsers_overall(test_path, nlp_stanza_childes, log_predictions=Fals
 
     return results
 
-test_path = "/Users/frapadovani/Desktop/stanza/UD_English-CHILDES/en_childes-ud-test.conllu"
-pos_tagger_model = "/Users/frapadovani/Desktop/stanza/saved_models/pos/en_childes_charlm_tagger.pt"
-parser_model = "/Users/frapadovani/Desktop/stanza/saved_models/depparse/en_childes_charlm_parser.pt"
+test_path = "UD_English-CHILDES/en_childes-ud-test.conllu"
+pos_tagger_model = "./saved_models/pos/en_childes_charlm_tagger.pt"
+parser_model = "./saved_models/depparse/en_childes_charlm_parser.pt"
 
 nlp_childes = stanza.Pipeline(
         lang='en',

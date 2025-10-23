@@ -47,7 +47,7 @@ In *conllu_files_original* one can find the .conllu files of the different annot
 I try two models (crf and biaffine):
 
 ```
-python3 -u -m supar.cmds.dep.crf2o train -b -d 0 -c dep-crf2o-en -p model_crf_combined -f char  \
+python3 -u -m supar.cmds.dep.crf2o train -b -d 0 -c dep-crf2o-en -p ./parser/model_crf_combined -f char  \
     --train ./conllu_files_merged/combined_train.conllu  \
     --dev ./conllu_files_merged/combined_dev.conllu  \
     --test ./conllu_files_merged/combined_test.conllu  \
@@ -58,11 +58,12 @@ python3 -u -m supar.cmds.dep.crf2o train -b -d 0 -c dep-crf2o-en -p model_crf_co
 The trained model is saved in the **parser/crf_combined** folder.
 
 ```
-python3 -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p model_biaffine_combined -f char  \
-    --train ./conllu_files_merged/combined_train.conllu  \
-    --dev ./conllu_files_merged/combined_dev.conllu  \
-    --test ./conllu_files_merged/combined_test.conllu \
-    --embed glove-6b-100   
+python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p 
+    ./parser/biaffine_combined -f char  \
+    --train ./UD_English-CHILDES/en_childes-ud-train.conllu \
+    --dev ./UD_English-CHILDES/en_childes-ud-dev.conllu \
+    --test ./UD_English-CHILDES/en_childes-ud-test.conllu  \
+    --embed glove-6b-100  
 ```
 The trained model is saved in the **parser/biaffine_combined** folder.
 
@@ -74,13 +75,22 @@ I train on the CHILDES silver datasets (the original silver .connlu files can be
 I use the *--checkpoint* argument while running the command from the terminal. As indicated by the code snipped below:
 
 ```
-python3 -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en \
--p /Users/frapadovani/Desktop/stanza/parser/biaffine_combined/model_biaffine_combined \
--f char --checkpoint \
-    --train ./silver_files_merged/childes_silver_train.conllu  \
-    --dev ./silver_files_merged/childes_silver_dev.conllu  \
-    --test ./silver_files_merged/childes_silver_test.conllu \
+python3 -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p ./parser/biaffine_combined/model_biaffine_combined -f char --checkpoint \
+    --train ./parser/silver_files_merged/childes_silver_train_sampled.conllu \
+    --dev ./parser/silver_files_merged/childes_silver_dev_sampled.conllu  \
+    --test ./parser/silver_files_merged/childes_silver_test_sampled.conllu  \
     --embed glove-6b-100 
+
+```
+
+```
+python3 -u -m supar.cmds.dep.crf2o train -b -d 0 -c dep-crf2o-en -p  -f char ./parser/crf_combined_finetuned_complete --checkpoint\
+    --train ./parser/silver_files_merged/small_train.conllu  \
+    --dev ./parser/conllu_files_merged/small_dev.conllu  \
+    --test ./parser/conllu_files_merged/combined_test.conllu  \
+    --embed glove-6b-100  \
+    --mbr  \
+    --proj
 ```
 
 
@@ -89,24 +99,38 @@ python3 -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en \
 I try two models (crf and biaffine):
 
 ```
-python -u -m supar.cmds.dep.crf2o train -b -d 0 -c dep-crf2o-en -p model_crf_childes -f char  \
-    --train ./stanza/UD_English-CHILDES/en_childes-ud-train.conllu  \
-    --dev ./stanza/UD_English-CHILDES/en_childes-ud-dev.conllu  \
-    --test ./stanza/UD_English-CHILDES/en_childes-ud-test.conllu  \
+python3 -u -m supar.cmds.dep.crf2o train -b -d 0 -c dep-crf2o-en -p ./parser/crf_childes -f char  \
+    --train UD_English-CHILDES/en_childes-ud-train.conllu  \
+    --dev UD_English-CHILDES/en_childes-ud-dev.conllu  \
+    --test UD_English-CHILDES/en_childes-ud-test.conllu  \
     --embed glove-6b-100  \
     --mbr  \
     --proj
 ```
 
 ```
-python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en \
--p model_biaffine_childes -f char  \
-    --train ./stanza/UD_English-CHILDES/en_childes-ud-train.conllu  \
-    --dev ./stanza/UD_English-CHILDES/en_childes-ud-dev.conllu  \
-    --test ./stanza/UD_English-CHILDES/en_childes-ud-test.conllu  \
+python3 -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en \
+-p ./parser/biaffine_childes -f char  \
+    --train UD_English-CHILDES/en_childes-ud-train.conllu  \
+    --dev UD_English-CHILDES/en_childes-ud-dev.conllu  \
+    --test UD_English-CHILDES/en_childes-ud-test.conllu  \
     --embed glove-6b-100   
 ```
 
+
+
+To evaluate the trained model you can use this command:
+
+- biaffine
+`python -u -m supar.cmds.dep.biaffine evaluate -d 0 -p model_path --data test_file.connlu --tree  --proj`
+- crf 
+`python -u -m supar.cmds.dep.crf2o evaluate -d 0 -p model_path --data test_file.connlu --mbr --tree --proj`
+
+
+## CONSTRUCTION CLASSIFICATION 
+based on the paper Do Construction Distributions Shape Formal Language Learning In German BabyLMs? Bunzeck et al., 2025
+
+There is a function I developed (very first attempt) in the Notebook *parser/construction_distribution.ipynb*
 
 
 
