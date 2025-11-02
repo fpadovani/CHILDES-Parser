@@ -6,21 +6,40 @@ Training of a Dependency Parser on golden UD annotation on English CHILDES
 1. Test the accuracy of a Stanza model trained on gold UD_English-CHILDES annotations taken from the dev branch of [Xiulin's paper repository](https://github.com/UniversalDependencies/UD_English-CHILDES), which I added as well in this repo.
 
 ### Instruction for the training of Stanza model [documentation](https://stanfordnlp.github.io/stanza/training_and_evaluation.html)
+- First, clone the stanza repository,  create a virtual environment, and install all the dependencies. In ```script/config.sh```, please change the path of ```UD_BASE```.
 
-- First create a folder called **data**, under which you create other two subfolders [depparse, pos]. Whithin these two subfolders you copy paste the conllu files and you rename them like this:
-    - en_childes.train.in.conllu
-    - en_childes.dev.in.conllu
-    - en_childes.test.in.conllu
+```bash
+git clone https://github.com/stanfordnlp/stanza.git
+cd stanza
+conda create -n parser python==3.10
+conda activate parser
+pip install -e .
+cd script
+source config.sh
+```
+- Then create a folder called **data** and move the UD-data-repository to **data** and prepare the data for different tasks.
+```
+# for tokenizer
+# E.g., python -m stanza.utils.datasets.prepare_tokenizer_treebank UD_English-CHILDES
+python -m stanza.utils.datasets.prepare_tokenizer_treebank ${corpus_name}
 
-To train the tokenizer you run this command:
-`python -m stanza.utils.training.run_tokenize UD_English-EWT`
+# for dependency parser
+python -m stanza.utils.datasets.prepare_depparse_treebank ${corpus_name}
 
-To train the parser you run this command:
-`python -m stanza.utils.training.run_depparse UD_English-EWT`
+# for pos tagger
+python -m stanza.utils.datasets.prepare_pos_treebank ${corpus_name}
+```
+- Start training!  
+```bash
+# To train the tokenizer you run this command:
+python -m stanza.utils.training.run_tokenize ${corpus_name}
 
-Create also the output folder for your trained models **save_models**.
+# To train the parser you run this command:
+python -m stanza.utils.training.run_depparse ${corpus_name}
+```
+- Create also the output folder for your trained models **save_models**.
 
-In order to load the trained model and evaluate it, I use this:
+- In order to load the trained model and evaluate it, I use this:
 
 ```
 stanza_childes_en = stanza.Pipeline(
