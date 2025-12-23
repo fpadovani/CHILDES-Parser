@@ -1,0 +1,4207 @@
+Sentence,Roberta_CDS_biaffine,Roberta_eng_biaffine,Stanza_off_the_shelf
+lift Purdie's tail .,"lift	_	_	_	_	_	0	root	_	_
+Purdie's	_	_	_	_	_	3	nmod:poss	_	_
+tail	_	_	_	_	_	1	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","lift	_	_	_	_	_	0	root	_	_
+Purdie's	_	_	_	_	_	3	nmod:poss	_	_
+tail	_	_	_	_	_	1	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","lift	_	VERB	VB	_	_	0	root	_	_
+Purdie	_	PROPN	NNP	_	_	4	nmod:poss	_	_
+'s	_	PART	POS	_	_	2	case	_	_
+tail	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+you find Thomas's face .,"you	_	_	_	_	_	2	nsubj	_	_
+find	_	_	_	_	_	0	root	_	_
+Thomas's	_	_	_	_	_	4	nmod:poss	_	_
+face	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","you	_	_	_	_	_	2	nsubj	_	_
+find	_	_	_	_	_	0	root	_	_
+Thomas's	_	_	_	_	_	4	nmod:poss	_	_
+face	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","you	_	PRON	PRP	_	_	2	nsubj	_	_
+find	_	VERB	VBP	_	_	0	root	_	_
+Thomas	_	PROPN	NNP	_	_	5	nmod:poss	_	_
+'s	_	PART	POS	_	_	3	case	_	_
+face	_	NOUN	NN	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+"Mummy , don't .","Mummy	_	_	_	_	_	3	vocative	_	_
+,	_	_	_	_	_	3	punct	_	_
+don't	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Mummy	_	_	_	_	_	3	vocative	_	_
+,	_	_	_	_	_	1	punct	_	_
+don't	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Mummy	_	NOUN	NN	_	_	3	vocative	_	_
+,	_	PUNCT	,	_	_	1	punct	_	_
+do	_	AUX	VB	_	_	0	root	_	_
+n't	_	PART	RB	_	_	3	advmod	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+choo choo .,"choo	_	_	_	_	_	0	root	_	_
+choo	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	_	_	_	_	0	root	_	_
+choo	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	PROPN	NNP	_	_	0	root	_	_
+choo	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+it's Mummy's house .,"it's	_	_	_	_	_	3	cop	_	_
+Mummy's	_	_	_	_	_	3	nmod:poss	_	_
+house	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","it's	_	_	_	_	_	3	cop	_	_
+Mummy's	_	_	_	_	_	3	nmod:poss	_	_
+house	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","it	_	PRON	PRP	_	_	5	nsubj	_	_
+'s	_	AUX	VBZ	_	_	5	cop	_	_
+Mummy	_	PROPN	NNP	_	_	5	nmod:poss	_	_
+'s	_	PART	POS	_	_	3	case	_	_
+house	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+wheels on the bus go red red red .,"wheels	_	_	_	_	_	5	nsubj	_	_
+on	_	_	_	_	_	4	case	_	_
+the	_	_	_	_	_	4	det	_	_
+bus	_	_	_	_	_	1	nmod	_	_
+go	_	_	_	_	_	0	root	_	_
+red	_	_	_	_	_	5	xcomp	_	_
+red	_	_	_	_	_	6	conj	_	_
+red	_	_	_	_	_	6	conj	_	_
+.	_	_	_	_	_	5	punct	_	_","wheels	_	_	_	_	_	5	nsubj	_	_
+on	_	_	_	_	_	4	case	_	_
+the	_	_	_	_	_	4	det	_	_
+bus	_	_	_	_	_	1	nmod	_	_
+go	_	_	_	_	_	0	root	_	_
+red	_	_	_	_	_	8	amod	_	_
+red	_	_	_	_	_	8	amod	_	_
+red	_	_	_	_	_	5	xcomp	_	_
+.	_	_	_	_	_	5	punct	_	_","wheels	_	NOUN	NNS	_	_	5	nsubj	_	_
+on	_	ADP	IN	_	_	4	case	_	_
+the	_	DET	DT	_	_	4	det	_	_
+bus	_	NOUN	NN	_	_	1	nmod	_	_
+go	_	VERB	VBP	_	_	0	root	_	_
+red	_	ADJ	JJ	_	_	8	amod	_	_
+red	_	ADJ	JJ	_	_	8	amod	_	_
+red	_	ADJ	JJ	_	_	5	xcomp	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+red red red .,"red	_	_	_	_	_	0	root	_	_
+red	_	_	_	_	_	1	conj	_	_
+red	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","red	_	_	_	_	_	3	amod	_	_
+red	_	_	_	_	_	3	amod	_	_
+red	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","red	_	ADJ	JJ	_	_	3	amod	_	_
+red	_	ADJ	JJ	_	_	3	amod	_	_
+red	_	ADJ	JJ	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+red red red red red .,"red	_	_	_	_	_	0	root	_	_
+red	_	_	_	_	_	1	conj	_	_
+red	_	_	_	_	_	1	conj	_	_
+red	_	_	_	_	_	1	conj	_	_
+red	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","red	_	_	_	_	_	0	root	_	_
+red	_	_	_	_	_	5	amod	_	_
+red	_	_	_	_	_	5	amod	_	_
+red	_	_	_	_	_	5	amod	_	_
+red	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	5	punct	_	_","red	_	ADJ	JJ	_	_	5	amod	_	_
+red	_	ADJ	JJ	_	_	5	amod	_	_
+red	_	ADJ	JJ	_	_	5	amod	_	_
+red	_	ADJ	JJ	_	_	5	amod	_	_
+red	_	ADJ	JJ	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+red red red .,"red	_	_	_	_	_	0	root	_	_
+red	_	_	_	_	_	1	conj	_	_
+red	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","red	_	_	_	_	_	3	amod	_	_
+red	_	_	_	_	_	3	amod	_	_
+red	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","red	_	ADJ	JJ	_	_	3	amod	_	_
+red	_	ADJ	JJ	_	_	3	amod	_	_
+red	_	ADJ	JJ	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+don't know .,"don't	_	_	_	_	_	2	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","don't	_	_	_	_	_	2	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","do	_	AUX	VBP	_	_	3	aux	_	_
+n't	_	PART	RB	_	_	3	advmod	_	_
+know	_	VERB	VB	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+nee nah .,"nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	INTJ	UH	_	_	2	discourse	_	_
+nah	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+bee bah .,"bee	_	_	_	_	_	0	root	_	_
+bah	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","bee	_	_	_	_	_	2	compound	_	_
+bah	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","bee	_	VERB	VB	_	_	0	root	_	_
+bah	_	INTJ	UH	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+nee nah .,"nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	INTJ	UH	_	_	2	discourse	_	_
+nah	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+frightened somebody's beer .,"frightened	_	_	_	_	_	0	root	_	_
+somebody's	_	_	_	_	_	3	nmod:poss	_	_
+beer	_	_	_	_	_	1	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","frightened	_	_	_	_	_	0	root	_	_
+somebody's	_	_	_	_	_	3	nmod:poss	_	_
+beer	_	_	_	_	_	1	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","frightened	_	VERB	VBD	_	_	0	root	_	_
+somebody	_	PRON	NN	_	_	4	nmod:poss	_	_
+'s	_	PART	POS	_	_	2	case	_	_
+beer	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+smack that little Mummy .,"smack	_	_	_	_	_	0	root	_	_
+that	_	_	_	_	_	1	obj	_	_
+little	_	_	_	_	_	1	obj	_	_
+Mummy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","smack	_	_	_	_	_	0	root	_	_
+that	_	_	_	_	_	4	det	_	_
+little	_	_	_	_	_	4	amod	_	_
+Mummy	_	_	_	_	_	1	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","smack	_	VERB	VB	_	_	0	root	_	_
+that	_	DET	DT	_	_	4	det	_	_
+little	_	ADJ	JJ	_	_	4	amod	_	_
+Mummy	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+"lots of vegetables , Mummy .","lots	_	_	_	_	_	0	root	_	_
+of	_	_	_	_	_	3	case	_	_
+vegetables	_	_	_	_	_	1	nmod	_	_
+,	_	_	_	_	_	1	punct	_	_
+Mummy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","lots	_	_	_	_	_	0	root	_	_
+of	_	_	_	_	_	3	case	_	_
+vegetables	_	_	_	_	_	1	nmod	_	_
+,	_	_	_	_	_	5	punct	_	_
+Mummy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","lots	_	NOUN	NNS	_	_	0	root	_	_
+of	_	ADP	IN	_	_	3	case	_	_
+vegetables	_	NOUN	NNS	_	_	1	nmod	_	_
+,	_	PUNCT	,	_	_	5	punct	_	_
+Mummy	_	NOUN	NN	_	_	3	appos	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+there's Smarties .,"there's	_	_	_	_	_	0	root	_	_
+Smarties	_	_	_	_	_	1	nsubj	_	_
+.	_	_	_	_	_	1	punct	_	_","there's	_	_	_	_	_	0	root	_	_
+Smarties	_	_	_	_	_	1	nsubj	_	_
+.	_	_	_	_	_	1	punct	_	_","there	_	PRON	EX	_	_	2	expl	_	_
+'s	_	VERB	VBZ	_	_	0	root	_	_
+Smarties	_	NOUN	NNS	_	_	2	nsubj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+nee nah nee nah .,"nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+nee	_	_	_	_	_	1	conj	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+nee	_	_	_	_	_	4	discourse	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	INTJ	UH	_	_	3	discourse	_	_
+nah	_	INTJ	UH	_	_	3	discourse	_	_
+nee	_	INTJ	UH	_	_	4	discourse	_	_
+nah	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+he's going nee nah beep beep .,"he's	_	_	_	_	_	2	nsubj	_	_
+going	_	_	_	_	_	0	root	_	_
+nee	_	_	_	_	_	2	discourse	_	_
+nah	_	_	_	_	_	3	conj	_	_
+beep	_	_	_	_	_	2	parataxis	_	_
+beep	_	_	_	_	_	5	conj	_	_
+.	_	_	_	_	_	2	punct	_	_","he's	_	_	_	_	_	2	nsubj	_	_
+going	_	_	_	_	_	0	root	_	_
+nee	_	_	_	_	_	2	discourse	_	_
+nah	_	_	_	_	_	3	discourse	_	_
+beep	_	_	_	_	_	2	ccomp	_	_
+beep	_	_	_	_	_	2	discourse	_	_
+.	_	_	_	_	_	2	punct	_	_","he	_	PRON	PRP	_	_	3	nsubj	_	_
+'s	_	AUX	VBZ	_	_	3	aux	_	_
+going	_	VERB	VBG	_	_	0	root	_	_
+nee	_	PROPN	NNP	_	_	3	obj	_	_
+nah	_	INTJ	UH	_	_	7	discourse	_	_
+beep	_	NOUN	NN	_	_	7	compound	_	_
+beep	_	NOUN	NN	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+nee nah nee nah .,"nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+nee	_	_	_	_	_	1	conj	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+nee	_	_	_	_	_	4	discourse	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	INTJ	UH	_	_	3	discourse	_	_
+nah	_	INTJ	UH	_	_	3	discourse	_	_
+nee	_	INTJ	UH	_	_	4	discourse	_	_
+nah	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+nee nah nee nah .,"nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+nee	_	_	_	_	_	1	conj	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+nee	_	_	_	_	_	4	discourse	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	INTJ	UH	_	_	3	discourse	_	_
+nah	_	INTJ	UH	_	_	3	discourse	_	_
+nee	_	INTJ	UH	_	_	4	discourse	_	_
+nah	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Tinky Winky said the policeman .,"Tinky	_	_	_	_	_	0	root	_	_
+Winky	_	_	_	_	_	1	flat	_	_
+said	_	_	_	_	_	1	parataxis	_	_
+the	_	_	_	_	_	5	det	_	_
+policeman	_	_	_	_	_	3	nsubj	_	_
+.	_	_	_	_	_	1	punct	_	_","Tinky	_	_	_	_	_	3	nsubj	_	_
+Winky	_	_	_	_	_	1	flat	_	_
+said	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	5	det	_	_
+policeman	_	_	_	_	_	3	nsubj	_	_
+.	_	_	_	_	_	3	punct	_	_","Tinky	_	PROPN	NNP	_	_	0	root	_	_
+Winky	_	PROPN	NNP	_	_	2	nsubj	_	_
+said	_	VERB	VBD	_	_	0	root	_	_
+the	_	DET	DT	_	_	4	det	_	_
+policeman	_	NOUN	NN	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Aunty Father Christmas brought you .,"Aunty	_	_	_	_	_	4	vocative	_	_
+Father	_	_	_	_	_	4	nsubj	_	_
+Christmas	_	_	_	_	_	2	flat	_	_
+brought	_	_	_	_	_	0	root	_	_
+you	_	_	_	_	_	4	obj	_	_
+.	_	_	_	_	_	4	punct	_	_","Aunty	_	_	_	_	_	4	nsubj	_	_
+Father	_	_	_	_	_	3	nmod:desc	_	_
+Christmas	_	_	_	_	_	1	flat	_	_
+brought	_	_	_	_	_	0	root	_	_
+you	_	_	_	_	_	4	obj	_	_
+.	_	_	_	_	_	4	punct	_	_","Aunty	_	PROPN	NNP	_	_	4	nsubj	_	_
+Father	_	PROPN	NNP	_	_	1	flat	_	_
+Christmas	_	PROPN	NNP	_	_	1	flat	_	_
+brought	_	VERB	VBD	_	_	0	root	_	_
+you	_	PRON	PRP	_	_	4	obj	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+beebaa beebaa .,"beebaa	_	_	_	_	_	0	root	_	_
+beebaa	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","beebaa	_	_	_	_	_	0	root	_	_
+beebaa	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","beebaa	_	PROPN	NNP	_	_	0	root	_	_
+beebaa	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+put to on to La La on there .,"put	_	_	_	_	_	0	root	_	_
+to	_	_	_	_	_	3	reparandum	_	_
+on	_	_	_	_	_	5	reparandum	_	_
+to	_	_	_	_	_	5	case	_	_
+La	_	_	_	_	_	1	obl	_	_
+La	_	_	_	_	_	5	flat	_	_
+on	_	_	_	_	_	8	case	_	_
+there	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","put	_	_	_	_	_	0	root	_	_
+to	_	_	_	_	_	5	reparandum	_	_
+on	_	_	_	_	_	5	reparandum	_	_
+to	_	_	_	_	_	5	case	_	_
+La	_	_	_	_	_	1	obl	_	_
+La	_	_	_	_	_	5	flat	_	_
+on	_	_	_	_	_	8	case	_	_
+there	_	_	_	_	_	5	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","put	_	VERB	VB	_	_	0	root	_	_
+to	_	ADP	IN	_	_	1	advmod	_	_
+on	_	ADP	IN	_	_	1	advmod	_	_
+to	_	ADP	IN	_	_	5	case	_	_
+La	_	PROPN	NNP	_	_	1	obl	_	_
+La	_	PROPN	NNP	_	_	5	flat	_	_
+on	_	ADP	IN	_	_	8	case	_	_
+there	_	ADV	RB	_	_	1	obl	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+go in Daddy's car .,"go	_	_	_	_	_	0	root	_	_
+in	_	_	_	_	_	4	case	_	_
+Daddy's	_	_	_	_	_	4	nmod:poss	_	_
+car	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","go	_	_	_	_	_	0	root	_	_
+in	_	_	_	_	_	4	case	_	_
+Daddy's	_	_	_	_	_	4	nmod:poss	_	_
+car	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","go	_	VERB	VB	_	_	0	root	_	_
+in	_	ADP	IN	_	_	5	case	_	_
+Daddy	_	PROPN	NNP	_	_	5	nmod:poss	_	_
+'s	_	PART	POS	_	_	3	case	_	_
+car	_	NOUN	NN	_	_	1	obl	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+not today again .,"not	_	_	_	_	_	2	advmod	_	_
+today	_	_	_	_	_	0	root	_	_
+again	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","not	_	_	_	_	_	2	advmod	_	_
+today	_	_	_	_	_	0	root	_	_
+again	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","not	_	PART	RB	_	_	2	advmod	_	_
+today	_	NOUN	NN	_	_	3	obl:unmarked	_	_
+again	_	ADV	RB	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+mummy take them away .,"mummy	_	_	_	_	_	2	vocative	_	_
+take	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	2	obj	_	_
+away	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","mummy	_	_	_	_	_	2	vocative	_	_
+take	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	2	obj	_	_
+away	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","mummy	_	NOUN	NN	_	_	2	nsubj	_	_
+take	_	VERB	VB	_	_	0	root	_	_
+them	_	PRON	PRP	_	_	2	obj	_	_
+away	_	ADP	RP	_	_	2	compound:prt	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+mummy want an orange ?,"mummy	_	_	_	_	_	2	vocative	_	_
+want	_	_	_	_	_	0	root	_	_
+an	_	_	_	_	_	4	det	_	_
+orange	_	_	_	_	_	2	obj	_	_
+?	_	_	_	_	_	2	punct	_	_","mummy	_	_	_	_	_	2	nsubj	_	_
+want	_	_	_	_	_	0	root	_	_
+an	_	_	_	_	_	4	det	_	_
+orange	_	_	_	_	_	2	obj	_	_
+?	_	_	_	_	_	2	punct	_	_","mummy	_	NOUN	NN	_	_	2	nsubj	_	_
+want	_	VERB	VB	_	_	0	root	_	_
+an	_	DET	DT	_	_	4	det	_	_
+orange	_	NOUN	NN	_	_	2	obj	_	_
+?	_	PUNCT	.	_	_	2	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+snap snap .,"snap	_	_	_	_	_	0	root	_	_
+snap	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","snap	_	_	_	_	_	0	root	_	_
+snap	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","snap	_	VERB	VB	_	_	0	root	_	_
+snap	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+snap snap .,"snap	_	_	_	_	_	0	root	_	_
+snap	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","snap	_	_	_	_	_	0	root	_	_
+snap	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","snap	_	VERB	VB	_	_	0	root	_	_
+snap	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+choc choc .,"choc	_	_	_	_	_	0	root	_	_
+choc	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","choc	_	_	_	_	_	2	compound	_	_
+choc	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","choc	_	NOUN	NN	_	_	2	compound	_	_
+choc	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+snip snip .,"snip	_	_	_	_	_	0	root	_	_
+snip	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","snip	_	_	_	_	_	0	root	_	_
+snip	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","snip	_	NOUN	NN	_	_	2	compound	_	_
+snip	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+help help .,"help	_	_	_	_	_	0	root	_	_
+help	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","help	_	_	_	_	_	0	root	_	_
+help	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","help	_	VERB	VB	_	_	0	root	_	_
+help	_	VERB	VB	_	_	1	xcomp	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+poop poop .,"poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","poop	_	_	_	_	_	2	discourse	_	_
+poop	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","poop	_	NOUN	NN	_	_	2	compound	_	_
+poop	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+poop poop .,"poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","poop	_	_	_	_	_	2	discourse	_	_
+poop	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","poop	_	NOUN	NN	_	_	2	compound	_	_
+poop	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+help help .,"help	_	_	_	_	_	0	root	_	_
+help	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","help	_	_	_	_	_	0	root	_	_
+help	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","help	_	VERB	VB	_	_	0	root	_	_
+help	_	VERB	VB	_	_	1	xcomp	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+poop poop .,"poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","poop	_	_	_	_	_	2	discourse	_	_
+poop	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","poop	_	NOUN	NN	_	_	2	compound	_	_
+poop	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+poop poop .,"poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","poop	_	_	_	_	_	2	discourse	_	_
+poop	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","poop	_	NOUN	NN	_	_	2	compound	_	_
+poop	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+poop poop .,"poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","poop	_	_	_	_	_	2	discourse	_	_
+poop	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","poop	_	NOUN	NN	_	_	2	compound	_	_
+poop	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+poop poop .,"poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","poop	_	_	_	_	_	2	discourse	_	_
+poop	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","poop	_	NOUN	NN	_	_	2	compound	_	_
+poop	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+help help .,"help	_	_	_	_	_	0	root	_	_
+help	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","help	_	_	_	_	_	0	root	_	_
+help	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","help	_	VERB	VB	_	_	0	root	_	_
+help	_	VERB	VB	_	_	1	xcomp	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+poop poop poop poop .,"poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	1	conj	_	_
+poop	_	_	_	_	_	1	conj	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","poop	_	_	_	_	_	2	nsubj	_	_
+poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	4	compound	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	2	punct	_	_","poop	_	NOUN	NN	_	_	4	compound	_	_
+poop	_	NOUN	NN	_	_	4	compound	_	_
+poop	_	NOUN	NN	_	_	4	compound	_	_
+poop	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+poop poop .,"poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","poop	_	_	_	_	_	2	discourse	_	_
+poop	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","poop	_	NOUN	NN	_	_	2	compound	_	_
+poop	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+poop poop .,"poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","poop	_	_	_	_	_	2	discourse	_	_
+poop	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","poop	_	NOUN	NN	_	_	2	compound	_	_
+poop	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Dadda chair .,"Dadda	_	_	_	_	_	2	nmod:poss	_	_
+chair	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","Dadda	_	_	_	_	_	2	compound	_	_
+chair	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","Dadda	_	PROPN	NNP	_	_	2	compound	_	_
+chair	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+poop poop poop poop .,"poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	1	conj	_	_
+poop	_	_	_	_	_	1	conj	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","poop	_	_	_	_	_	2	nsubj	_	_
+poop	_	_	_	_	_	0	root	_	_
+poop	_	_	_	_	_	4	compound	_	_
+poop	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	2	punct	_	_","poop	_	NOUN	NN	_	_	4	compound	_	_
+poop	_	NOUN	NN	_	_	4	compound	_	_
+poop	_	NOUN	NN	_	_	4	compound	_	_
+poop	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+is there is dog food .,"is	_	_	_	_	_	3	reparandum	_	_
+there	_	_	_	_	_	3	expl	_	_
+is	_	_	_	_	_	0	root	_	_
+dog	_	_	_	_	_	5	compound	_	_
+food	_	_	_	_	_	3	nsubj	_	_
+.	_	_	_	_	_	3	punct	_	_","is	_	_	_	_	_	3	cop	_	_
+there	_	_	_	_	_	3	expl	_	_
+is	_	_	_	_	_	0	root	_	_
+dog	_	_	_	_	_	5	compound	_	_
+food	_	_	_	_	_	3	nsubj	_	_
+.	_	_	_	_	_	3	punct	_	_","is	_	AUX	VBZ	_	_	3	cop	_	_
+there	_	PRON	EX	_	_	3	expl	_	_
+is	_	VERB	VBZ	_	_	0	root	_	_
+dog	_	NOUN	NN	_	_	5	compound	_	_
+food	_	NOUN	NN	_	_	3	nsubj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+he's eating it .,"he's	_	_	_	_	_	2	nsubj	_	_
+eating	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","he's	_	_	_	_	_	2	nsubj	_	_
+eating	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","he	_	PRON	PRP	_	_	3	nsubj	_	_
+'s	_	AUX	VBZ	_	_	3	aux	_	_
+eating	_	VERB	VBG	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+yum yum yum yum .,"yum	_	_	_	_	_	0	root	_	_
+yum	_	_	_	_	_	1	conj	_	_
+yum	_	_	_	_	_	1	conj	_	_
+yum	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","yum	_	_	_	_	_	0	root	_	_
+yum	_	_	_	_	_	1	discourse	_	_
+yum	_	_	_	_	_	4	discourse	_	_
+yum	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","yum	_	INTJ	UH	_	_	2	discourse	_	_
+yum	_	NOUN	NN	_	_	0	root	_	_
+yum	_	NOUN	NN	_	_	4	compound	_	_
+yum	_	NOUN	NN	_	_	2	vocative	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+it's a noun .,"it's	_	_	_	_	_	3	cop	_	_
+a	_	_	_	_	_	3	det	_	_
+noun	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","it's	_	_	_	_	_	3	cop	_	_
+a	_	_	_	_	_	3	det	_	_
+noun	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","it	_	PRON	PRP	_	_	4	nsubj	_	_
+'s	_	AUX	VBZ	_	_	4	cop	_	_
+a	_	DET	DT	_	_	4	det	_	_
+noun	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+you sit you sit on this chair right here .,"you	_	_	_	_	_	2	nsubj	_	_
+sit	_	_	_	_	_	4	reparandum	_	_
+you	_	_	_	_	_	4	nsubj	_	_
+sit	_	_	_	_	_	0	root	_	_
+on	_	_	_	_	_	7	case	_	_
+this	_	_	_	_	_	7	det	_	_
+chair	_	_	_	_	_	4	obl	_	_
+right	_	_	_	_	_	9	advmod	_	_
+here	_	_	_	_	_	7	advmod	_	_
+.	_	_	_	_	_	4	punct	_	_","you	_	_	_	_	_	2	nsubj	_	_
+sit	_	_	_	_	_	4	reparandum	_	_
+you	_	_	_	_	_	4	nsubj	_	_
+sit	_	_	_	_	_	0	root	_	_
+on	_	_	_	_	_	7	case	_	_
+this	_	_	_	_	_	7	det	_	_
+chair	_	_	_	_	_	4	obl	_	_
+right	_	_	_	_	_	9	advmod	_	_
+here	_	_	_	_	_	7	advmod	_	_
+.	_	_	_	_	_	4	punct	_	_","you	_	PRON	PRP	_	_	2	nsubj	_	_
+sit	_	VERB	VBP	_	_	0	root	_	_
+you	_	PRON	PRP	_	_	4	nsubj	_	_
+sit	_	VERB	VBP	_	_	2	ccomp	_	_
+on	_	ADP	IN	_	_	7	case	_	_
+this	_	DET	DT	_	_	7	det	_	_
+chair	_	NOUN	NN	_	_	4	obl	_	_
+right	_	ADV	RB	_	_	9	advmod	_	_
+here	_	ADV	RB	_	_	4	advmod	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+hot hot hot .,"hot	_	_	_	_	_	0	root	_	_
+hot	_	_	_	_	_	1	conj	_	_
+hot	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","hot	_	_	_	_	_	0	root	_	_
+hot	_	_	_	_	_	3	amod	_	_
+hot	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	3	punct	_	_","hot	_	ADJ	JJ	_	_	3	amod	_	_
+hot	_	ADJ	JJ	_	_	3	amod	_	_
+hot	_	ADJ	JJ	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+don't bend him .,"don't	_	_	_	_	_	2	aux	_	_
+bend	_	_	_	_	_	0	root	_	_
+him	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","don't	_	_	_	_	_	2	advmod	_	_
+bend	_	_	_	_	_	0	root	_	_
+him	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","do	_	AUX	VB	_	_	3	aux	_	_
+n't	_	PART	RB	_	_	3	advmod	_	_
+bend	_	VERB	VB	_	_	0	root	_	_
+him	_	PRON	PRP	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+he doesn't like nothing to eat .,"he	_	_	_	_	_	3	nsubj	_	_
+doesn't	_	_	_	_	_	3	aux	_	_
+like	_	_	_	_	_	0	root	_	_
+nothing	_	_	_	_	_	3	obj	_	_
+to	_	_	_	_	_	6	mark	_	_
+eat	_	_	_	_	_	4	acl	_	_
+.	_	_	_	_	_	3	punct	_	_","he	_	_	_	_	_	3	nsubj	_	_
+doesn't	_	_	_	_	_	3	advmod	_	_
+like	_	_	_	_	_	0	root	_	_
+nothing	_	_	_	_	_	3	obj	_	_
+to	_	_	_	_	_	6	mark	_	_
+eat	_	_	_	_	_	4	acl	_	_
+.	_	_	_	_	_	3	punct	_	_","he	_	PRON	PRP	_	_	4	nsubj	_	_
+does	_	AUX	VBZ	_	_	4	aux	_	_
+n't	_	PART	RB	_	_	4	advmod	_	_
+like	_	VERB	VB	_	_	0	root	_	_
+nothing	_	PRON	NN	_	_	4	obj	_	_
+to	_	PART	TO	_	_	7	mark	_	_
+eat	_	VERB	VB	_	_	5	acl	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+no with the rabbit .,"no	_	_	_	_	_	4	discourse	_	_
+with	_	_	_	_	_	4	case	_	_
+the	_	_	_	_	_	4	det	_	_
+rabbit	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","no	_	_	_	_	_	0	root	_	_
+with	_	_	_	_	_	4	case	_	_
+the	_	_	_	_	_	4	det	_	_
+rabbit	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","no	_	INTJ	UH	_	_	4	discourse	_	_
+with	_	ADP	IN	_	_	4	case	_	_
+the	_	DET	DT	_	_	4	det	_	_
+rabbit	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+I'm going to give it back to him when I get done drawing this picture for Thanksgiving and and and this picture for trickortreat .,"I'm	_	_	_	_	_	2	nsubj	_	_
+going	_	_	_	_	_	0	root	_	_
+to	_	_	_	_	_	4	mark	_	_
+give	_	_	_	_	_	2	xcomp	_	_
+it	_	_	_	_	_	4	obj	_	_
+back	_	_	_	_	_	4	advmod	_	_
+to	_	_	_	_	_	8	case	_	_
+him	_	_	_	_	_	4	obl	_	_
+when	_	_	_	_	_	11	mark	_	_
+I	_	_	_	_	_	11	nsubj	_	_
+get	_	_	_	_	_	4	advcl	_	_
+done	_	_	_	_	_	4	advcl	_	_
+drawing	_	_	_	_	_	4	advcl	_	_
+this	_	_	_	_	_	15	det	_	_
+picture	_	_	_	_	_	13	obj	_	_
+for	_	_	_	_	_	17	case	_	_
+Thanksgiving	_	_	_	_	_	15	nmod	_	_
+and	_	_	_	_	_	20	reparandum	_	_
+and	_	_	_	_	_	20	reparandum	_	_
+and	_	_	_	_	_	22	cc	_	_
+this	_	_	_	_	_	22	det	_	_
+picture	_	_	_	_	_	15	conj	_	_
+for	_	_	_	_	_	24	case	_	_
+trickortreat	_	_	_	_	_	22	nmod	_	_
+.	_	_	_	_	_	2	punct	_	_","I'm	_	_	_	_	_	2	aux	_	_
+going	_	_	_	_	_	0	root	_	_
+to	_	_	_	_	_	4	mark	_	_
+give	_	_	_	_	_	2	xcomp	_	_
+it	_	_	_	_	_	4	obj	_	_
+back	_	_	_	_	_	4	advmod	_	_
+to	_	_	_	_	_	8	case	_	_
+him	_	_	_	_	_	4	obl	_	_
+when	_	_	_	_	_	11	advmod	_	_
+I	_	_	_	_	_	11	nsubj	_	_
+get	_	_	_	_	_	4	advcl	_	_
+done	_	_	_	_	_	11	xcomp	_	_
+drawing	_	_	_	_	_	12	xcomp	_	_
+this	_	_	_	_	_	15	det	_	_
+picture	_	_	_	_	_	13	obj	_	_
+for	_	_	_	_	_	17	case	_	_
+Thanksgiving	_	_	_	_	_	13	obl	_	_
+and	_	_	_	_	_	22	cc	_	_
+and	_	_	_	_	_	22	cc	_	_
+and	_	_	_	_	_	22	cc	_	_
+this	_	_	_	_	_	22	det	_	_
+picture	_	_	_	_	_	15	conj	_	_
+for	_	_	_	_	_	24	case	_	_
+trickortreat	_	_	_	_	_	22	orphan	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	PRON	PRP	_	_	3	nsubj	_	_
+'m	_	AUX	VBP	_	_	3	aux	_	_
+going	_	VERB	VBG	_	_	0	root	_	_
+to	_	PART	TO	_	_	5	mark	_	_
+give	_	VERB	VB	_	_	3	xcomp	_	_
+it	_	PRON	PRP	_	_	5	obj	_	_
+back	_	ADV	RB	_	_	5	advmod	_	_
+to	_	ADP	IN	_	_	9	case	_	_
+him	_	PRON	PRP	_	_	5	obl	_	_
+when	_	ADV	WRB	_	_	13	advmod	_	_
+I	_	PRON	PRP	_	_	13	nsubj:pass	_	_
+get	_	AUX	VBP	_	_	13	aux:pass	_	_
+done	_	VERB	VBN	_	_	5	advcl	_	_
+drawing	_	VERB	VBG	_	_	13	advcl	_	_
+this	_	DET	DT	_	_	16	det	_	_
+picture	_	NOUN	NN	_	_	14	obj	_	_
+for	_	ADP	IN	_	_	18	case	_	_
+Thanksgiving	_	PROPN	NNP	_	_	14	obl	_	_
+and	_	CCONJ	CC	_	_	23	cc	_	_
+and	_	CCONJ	CC	_	_	23	cc	_	_
+and	_	CCONJ	CC	_	_	23	cc	_	_
+this	_	DET	DT	_	_	23	det	_	_
+picture	_	NOUN	NN	_	_	18	conj	_	_
+for	_	ADP	IN	_	_	25	case	_	_
+trickortreat	_	NOUN	NN	_	_	23	nmod	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+no fashed like these .,"no	_	_	_	_	_	2	discourse	_	_
+fashed	_	_	_	_	_	0	root	_	_
+like	_	_	_	_	_	4	case	_	_
+these	_	_	_	_	_	2	obl	_	_
+.	_	_	_	_	_	2	punct	_	_","no	_	_	_	_	_	2	det	_	_
+fashed	_	_	_	_	_	0	root	_	_
+like	_	_	_	_	_	4	case	_	_
+these	_	_	_	_	_	2	nmod	_	_
+.	_	_	_	_	_	2	punct	_	_","no	_	DET	DT	_	_	2	det	_	_
+fashed	_	ADJ	JJ	_	_	0	root	_	_
+like	_	ADP	IN	_	_	4	case	_	_
+these	_	PRON	DT	_	_	2	obl	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+what's pickles ?,"what's	_	_	_	_	_	0	root	_	_
+pickles	_	_	_	_	_	1	nsubj	_	_
+?	_	_	_	_	_	1	punct	_	_","what's	_	_	_	_	_	2	cop	_	_
+pickles	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	2	punct	_	_","what	_	PRON	WP	_	_	3	nsubj	_	_
+'s	_	AUX	VBZ	_	_	3	cop	_	_
+pickles	_	NOUN	NNS	_	_	0	root	_	_
+?	_	PUNCT	.	_	_	3	punct	_	_"
+know I'm a artist ?,"know	_	_	_	_	_	0	root	_	_
+I'm	_	_	_	_	_	4	cop	_	_
+a	_	_	_	_	_	4	det	_	_
+artist	_	_	_	_	_	1	ccomp	_	_
+?	_	_	_	_	_	1	punct	_	_","know	_	_	_	_	_	0	root	_	_
+I'm	_	_	_	_	_	4	cop	_	_
+a	_	_	_	_	_	4	det	_	_
+artist	_	_	_	_	_	1	ccomp	_	_
+?	_	_	_	_	_	1	punct	_	_","know	_	VERB	VBP	_	_	0	root	_	_
+I	_	PRON	PRP	_	_	5	nsubj	_	_
+'m	_	AUX	VBP	_	_	5	cop	_	_
+a	_	DET	DT	_	_	5	det	_	_
+artist	_	NOUN	NN	_	_	1	ccomp	_	_
+?	_	PUNCT	.	_	_	1	punct	_	_"
+uhhuh then wear it again okay ?,"uhhuh	_	_	_	_	_	3	discourse	_	_
+then	_	_	_	_	_	3	advmod	_	_
+wear	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	3	obj	_	_
+again	_	_	_	_	_	3	advmod	_	_
+okay	_	_	_	_	_	3	discourse	_	_
+?	_	_	_	_	_	3	punct	_	_","uhhuh	_	_	_	_	_	3	discourse	_	_
+then	_	_	_	_	_	3	advmod	_	_
+wear	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	3	obj	_	_
+again	_	_	_	_	_	3	advmod	_	_
+okay	_	_	_	_	_	3	discourse	_	_
+?	_	_	_	_	_	3	punct	_	_","uhhuh	_	INTJ	UH	_	_	3	discourse	_	_
+then	_	ADV	RB	_	_	3	advmod	_	_
+wear	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	3	obj	_	_
+again	_	ADV	RB	_	_	3	advmod	_	_
+okay	_	ADJ	JJ	_	_	3	advmod	_	_
+?	_	PUNCT	.	_	_	3	punct	_	_"
+you hot when you wear long sleeves ?,"you	_	_	_	_	_	2	nsubj	_	_
+hot	_	_	_	_	_	0	root	_	_
+when	_	_	_	_	_	5	mark	_	_
+you	_	_	_	_	_	5	nsubj	_	_
+wear	_	_	_	_	_	2	advcl	_	_
+long	_	_	_	_	_	7	amod	_	_
+sleeves	_	_	_	_	_	5	obj	_	_
+?	_	_	_	_	_	2	punct	_	_","you	_	_	_	_	_	2	nsubj	_	_
+hot	_	_	_	_	_	0	root	_	_
+when	_	_	_	_	_	5	advmod	_	_
+you	_	_	_	_	_	5	nsubj	_	_
+wear	_	_	_	_	_	2	advcl	_	_
+long	_	_	_	_	_	7	amod	_	_
+sleeves	_	_	_	_	_	5	obj	_	_
+?	_	_	_	_	_	2	punct	_	_","you	_	PRON	PRP	_	_	2	nsubj	_	_
+hot	_	ADJ	JJ	_	_	0	root	_	_
+when	_	ADV	WRB	_	_	5	advmod	_	_
+you	_	PRON	PRP	_	_	5	nsubj	_	_
+wear	_	VERB	VBP	_	_	2	advcl	_	_
+long	_	ADJ	JJ	_	_	7	amod	_	_
+sleeves	_	NOUN	NNS	_	_	5	obj	_	_
+?	_	PUNCT	.	_	_	2	punct	_	_"
+where's this is the seven okay ?,"where's	_	_	_	_	_	0	root	_	_
+this	_	_	_	_	_	1	nsubj	_	_
+is	_	_	_	_	_	5	cop	_	_
+the	_	_	_	_	_	5	det	_	_
+seven	_	_	_	_	_	1	parataxis	_	_
+okay	_	_	_	_	_	5	discourse	_	_
+?	_	_	_	_	_	5	punct	_	_","where's	_	_	_	_	_	5	reparandum	_	_
+this	_	_	_	_	_	5	nsubj	_	_
+is	_	_	_	_	_	5	cop	_	_
+the	_	_	_	_	_	5	det	_	_
+seven	_	_	_	_	_	0	root	_	_
+okay	_	_	_	_	_	5	discourse	_	_
+?	_	_	_	_	_	5	punct	_	_","where	_	ADV	WRB	_	_	7	advmod	_	_
+'s	_	AUX	VBZ	_	_	7	cop	_	_
+this	_	PRON	DT	_	_	7	nsubj	_	_
+is	_	AUX	VBZ	_	_	7	cop	_	_
+the	_	DET	DT	_	_	7	det	_	_
+seven	_	NUM	CD	_	_	7	nummod	_	_
+okay	_	ADJ	JJ	_	_	0	root	_	_
+?	_	PUNCT	.	_	_	7	punct	_	_"
+that all ?,"that	_	_	_	_	_	2	nsubj	_	_
+all	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	2	punct	_	_","that	_	_	_	_	_	2	nsubj	_	_
+all	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	2	punct	_	_","that	_	SCONJ	IN	_	_	2	mark	_	_
+all	_	DET	DT	_	_	0	root	_	_
+?	_	PUNCT	.	_	_	2	punct	_	_"
+I need to go tee tee .,"I	_	_	_	_	_	2	nsubj	_	_
+need	_	_	_	_	_	0	root	_	_
+to	_	_	_	_	_	4	mark	_	_
+go	_	_	_	_	_	2	xcomp	_	_
+tee	_	_	_	_	_	6	compound	_	_
+tee	_	_	_	_	_	4	xcomp	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	_	_	_	_	2	nsubj	_	_
+need	_	_	_	_	_	0	root	_	_
+to	_	_	_	_	_	4	mark	_	_
+go	_	_	_	_	_	2	xcomp	_	_
+tee	_	_	_	_	_	6	compound	_	_
+tee	_	_	_	_	_	4	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	PRON	PRP	_	_	2	nsubj	_	_
+need	_	VERB	VBP	_	_	0	root	_	_
+to	_	PART	TO	_	_	4	mark	_	_
+go	_	VERB	VB	_	_	2	xcomp	_	_
+tee	_	NOUN	NN	_	_	6	compound	_	_
+tee	_	NOUN	NN	_	_	4	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+hunhunh know what he did ?,"hunhunh	_	_	_	_	_	2	discourse	_	_
+know	_	_	_	_	_	0	root	_	_
+what	_	_	_	_	_	5	obj	_	_
+he	_	_	_	_	_	5	nsubj	_	_
+did	_	_	_	_	_	2	ccomp	_	_
+?	_	_	_	_	_	2	punct	_	_","hunhunh	_	_	_	_	_	2	discourse	_	_
+know	_	_	_	_	_	0	root	_	_
+what	_	_	_	_	_	2	obj	_	_
+he	_	_	_	_	_	5	nsubj	_	_
+did	_	_	_	_	_	3	acl:relcl	_	_
+?	_	_	_	_	_	2	punct	_	_","hunhunh	_	INTJ	UH	_	_	2	discourse	_	_
+know	_	VERB	VB	_	_	0	root	_	_
+what	_	PRON	WP	_	_	2	obj	_	_
+he	_	PRON	PRP	_	_	5	nsubj	_	_
+did	_	VERB	VBD	_	_	3	acl:relcl	_	_
+?	_	PUNCT	.	_	_	2	punct	_	_"
+remember Greg at school ?,"remember	_	_	_	_	_	0	root	_	_
+Greg	_	_	_	_	_	1	obj	_	_
+at	_	_	_	_	_	4	case	_	_
+school	_	_	_	_	_	1	obl	_	_
+?	_	_	_	_	_	1	punct	_	_","remember	_	_	_	_	_	0	root	_	_
+Greg	_	_	_	_	_	1	obj	_	_
+at	_	_	_	_	_	4	case	_	_
+school	_	_	_	_	_	2	nmod	_	_
+?	_	_	_	_	_	1	punct	_	_","remember	_	VERB	VB	_	_	0	root	_	_
+Greg	_	PROPN	NNP	_	_	1	obj	_	_
+at	_	ADP	IN	_	_	4	case	_	_
+school	_	NOUN	NN	_	_	1	obl	_	_
+?	_	PUNCT	.	_	_	1	punct	_	_"
+go back go backwards .,"go	_	_	_	_	_	0	root	_	_
+back	_	_	_	_	_	1	advmod	_	_
+go	_	_	_	_	_	1	parataxis	_	_
+backwards	_	_	_	_	_	3	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","go	_	_	_	_	_	0	root	_	_
+back	_	_	_	_	_	1	advmod	_	_
+go	_	_	_	_	_	1	parataxis	_	_
+backwards	_	_	_	_	_	3	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","go	_	VERB	VB	_	_	0	root	_	_
+back	_	ADV	RB	_	_	1	advmod	_	_
+go	_	VERB	VB	_	_	1	xcomp	_	_
+backwards	_	ADV	RB	_	_	3	advmod	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+nee nah nee nah .,"nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+nee	_	_	_	_	_	1	conj	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+nee	_	_	_	_	_	4	discourse	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	INTJ	UH	_	_	3	discourse	_	_
+nah	_	INTJ	UH	_	_	3	discourse	_	_
+nee	_	INTJ	UH	_	_	4	discourse	_	_
+nah	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+nee nah .,"nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	INTJ	UH	_	_	2	discourse	_	_
+nah	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+nee nah nee nah .,"nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+nee	_	_	_	_	_	1	conj	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+nee	_	_	_	_	_	4	discourse	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	INTJ	UH	_	_	3	discourse	_	_
+nah	_	INTJ	UH	_	_	3	discourse	_	_
+nee	_	INTJ	UH	_	_	4	discourse	_	_
+nah	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+nee nah .,"nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	INTJ	UH	_	_	2	discourse	_	_
+nah	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+nee nah .,"nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	_	_	_	_	0	root	_	_
+nah	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","nee	_	INTJ	UH	_	_	2	discourse	_	_
+nah	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+it's jamajos .,"it's	_	_	_	_	_	2	cop	_	_
+jamajos	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","it's	_	_	_	_	_	2	cop	_	_
+jamajos	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","it	_	PRON	PRP	_	_	3	nsubj	_	_
+'s	_	AUX	VBZ	_	_	3	cop	_	_
+jamajos	_	NOUN	NNS	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+out out .,"out	_	_	_	_	_	0	root	_	_
+out	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","out	_	_	_	_	_	2	advmod	_	_
+out	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","out	_	ADV	RB	_	_	0	root	_	_
+out	_	ADP	RP	_	_	1	advmod	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+can't see them .,"can't	_	_	_	_	_	2	aux	_	_
+see	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","can't	_	_	_	_	_	2	advmod	_	_
+see	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","ca	_	AUX	MD	_	_	3	aux	_	_
+n't	_	PART	RB	_	_	3	advmod	_	_
+see	_	VERB	VB	_	_	0	root	_	_
+them	_	PRON	PRP	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+Teletubbie Toast Teletubbie Toast .,"Teletubbie	_	_	_	_	_	2	compound	_	_
+Toast	_	_	_	_	_	0	root	_	_
+Teletubbie	_	_	_	_	_	4	compound	_	_
+Toast	_	_	_	_	_	2	parataxis	_	_
+.	_	_	_	_	_	2	punct	_	_","Teletubbie	_	_	_	_	_	2	compound	_	_
+Toast	_	_	_	_	_	0	root	_	_
+Teletubbie	_	_	_	_	_	4	compound	_	_
+Toast	_	_	_	_	_	2	parataxis	_	_
+.	_	_	_	_	_	2	punct	_	_","Teletubbie	_	PROPN	NNP	_	_	2	compound	_	_
+Toast	_	PROPN	NNP	_	_	4	compound	_	_
+Teletubbie	_	PROPN	NNP	_	_	4	compound	_	_
+Toast	_	PROPN	NNP	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+naughty Noo Noo .,"naughty	_	_	_	_	_	2	amod	_	_
+Noo	_	_	_	_	_	0	root	_	_
+Noo	_	_	_	_	_	2	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","naughty	_	_	_	_	_	3	amod	_	_
+Noo	_	_	_	_	_	0	root	_	_
+Noo	_	_	_	_	_	2	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","naughty	_	ADJ	JJ	_	_	0	root	_	_
+Noo	_	INTJ	UH	_	_	1	discourse	_	_
+Noo	_	INTJ	UH	_	_	2	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Tinky Winky and Po .,"Tinky	_	_	_	_	_	0	root	_	_
+Winky	_	_	_	_	_	1	conj	_	_
+and	_	_	_	_	_	4	cc	_	_
+Po	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Tinky	_	_	_	_	_	0	root	_	_
+Winky	_	_	_	_	_	1	flat	_	_
+and	_	_	_	_	_	4	cc	_	_
+Po	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Tinky	_	PROPN	NNP	_	_	0	root	_	_
+Winky	_	PROPN	NNP	_	_	1	flat	_	_
+and	_	CCONJ	CC	_	_	4	cc	_	_
+Po	_	PROPN	NNP	_	_	1	conj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+big birds coming out your hair .,"big	_	_	_	_	_	2	amod	_	_
+birds	_	_	_	_	_	3	nsubj	_	_
+coming	_	_	_	_	_	0	root	_	_
+out	_	_	_	_	_	6	case	_	_
+your	_	_	_	_	_	6	nmod:poss	_	_
+hair	_	_	_	_	_	3	obl	_	_
+.	_	_	_	_	_	3	punct	_	_","big	_	_	_	_	_	2	amod	_	_
+birds	_	_	_	_	_	0	root	_	_
+coming	_	_	_	_	_	2	acl	_	_
+out	_	_	_	_	_	6	case	_	_
+your	_	_	_	_	_	6	nmod:poss	_	_
+hair	_	_	_	_	_	3	obl	_	_
+.	_	_	_	_	_	2	punct	_	_","big	_	ADJ	JJ	_	_	2	amod	_	_
+birds	_	NOUN	NNS	_	_	0	root	_	_
+coming	_	VERB	VBG	_	_	2	acl	_	_
+out	_	ADP	IN	_	_	6	case	_	_
+your	_	PRON	PRP$	_	_	6	nmod:poss	_	_
+hair	_	NOUN	NN	_	_	3	obl	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+get down .,"get	_	_	_	_	_	0	root	_	_
+down	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","get	_	_	_	_	_	0	root	_	_
+down	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","get	_	VERB	VB	_	_	0	root	_	_
+down	_	ADP	RP	_	_	1	compound:prt	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+um baby sheeps .,"um	_	_	_	_	_	3	discourse	_	_
+baby	_	_	_	_	_	3	amod	_	_
+sheeps	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","um	_	_	_	_	_	3	discourse	_	_
+baby	_	_	_	_	_	3	amod	_	_
+sheeps	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","um	_	INTJ	UH	_	_	3	discourse	_	_
+baby	_	NOUN	NN	_	_	3	compound	_	_
+sheeps	_	NOUN	NNS	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+you make a little bear and a and a rabbit .,"you	_	_	_	_	_	2	nsubj	_	_
+make	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	5	det	_	_
+little	_	_	_	_	_	5	amod	_	_
+bear	_	_	_	_	_	2	obj	_	_
+and	_	_	_	_	_	7	cc	_	_
+a	_	_	_	_	_	5	conj	_	_
+and	_	_	_	_	_	10	cc	_	_
+a	_	_	_	_	_	10	det	_	_
+rabbit	_	_	_	_	_	5	conj	_	_
+.	_	_	_	_	_	2	punct	_	_","you	_	_	_	_	_	2	nsubj	_	_
+make	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	5	det	_	_
+little	_	_	_	_	_	5	amod	_	_
+bear	_	_	_	_	_	2	obj	_	_
+and	_	_	_	_	_	7	cc	_	_
+a	_	_	_	_	_	5	conj	_	_
+and	_	_	_	_	_	10	cc	_	_
+a	_	_	_	_	_	10	det	_	_
+rabbit	_	_	_	_	_	5	conj	_	_
+.	_	_	_	_	_	2	punct	_	_","you	_	PRON	PRP	_	_	2	nsubj	_	_
+make	_	VERB	VBP	_	_	0	root	_	_
+a	_	DET	DT	_	_	5	det	_	_
+little	_	ADJ	JJ	_	_	5	amod	_	_
+bear	_	NOUN	NN	_	_	2	obj	_	_
+and	_	CCONJ	CC	_	_	10	cc	_	_
+a	_	DET	DT	_	_	10	det	_	_
+and	_	CCONJ	CC	_	_	10	cc	_	_
+a	_	DET	DT	_	_	10	det	_	_
+rabbit	_	NOUN	NN	_	_	5	conj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+you make a bear Mommy .,"you	_	_	_	_	_	2	nsubj	_	_
+make	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	4	det	_	_
+bear	_	_	_	_	_	2	obj	_	_
+Mommy	_	_	_	_	_	2	vocative	_	_
+.	_	_	_	_	_	2	punct	_	_","you	_	_	_	_	_	2	nsubj	_	_
+make	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	4	det	_	_
+bear	_	_	_	_	_	2	obj	_	_
+Mommy	_	_	_	_	_	2	vocative	_	_
+.	_	_	_	_	_	2	punct	_	_","you	_	PRON	PRP	_	_	2	nsubj	_	_
+make	_	VERB	VBP	_	_	0	root	_	_
+a	_	DET	DT	_	_	5	det	_	_
+bear	_	NOUN	NN	_	_	5	compound	_	_
+Mommy	_	PROPN	NNP	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+you make a rabbit and a bear I said .,"you	_	_	_	_	_	2	nsubj	_	_
+make	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	4	det	_	_
+rabbit	_	_	_	_	_	2	obj	_	_
+and	_	_	_	_	_	7	cc	_	_
+a	_	_	_	_	_	7	det	_	_
+bear	_	_	_	_	_	4	conj	_	_
+I	_	_	_	_	_	9	nsubj	_	_
+said	_	_	_	_	_	2	parataxis	_	_
+.	_	_	_	_	_	2	punct	_	_","you	_	_	_	_	_	2	nsubj	_	_
+make	_	_	_	_	_	9	ccomp	_	_
+a	_	_	_	_	_	4	det	_	_
+rabbit	_	_	_	_	_	2	obj	_	_
+and	_	_	_	_	_	7	cc	_	_
+a	_	_	_	_	_	7	det	_	_
+bear	_	_	_	_	_	4	conj	_	_
+I	_	_	_	_	_	9	nsubj	_	_
+said	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	9	punct	_	_","you	_	PRON	PRP	_	_	2	nsubj	_	_
+make	_	VERB	VBP	_	_	0	root	_	_
+a	_	DET	DT	_	_	4	det	_	_
+rabbit	_	NOUN	NN	_	_	2	obj	_	_
+and	_	CCONJ	CC	_	_	7	cc	_	_
+a	_	DET	DT	_	_	7	det	_	_
+bear	_	NOUN	NN	_	_	4	conj	_	_
+I	_	PRON	PRP	_	_	9	nsubj	_	_
+said	_	VERB	VBD	_	_	7	acl:relcl	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+yum yum yum yum yum yum a yum .,"yum	_	_	_	_	_	0	root	_	_
+yum	_	_	_	_	_	1	conj	_	_
+yum	_	_	_	_	_	1	conj	_	_
+yum	_	_	_	_	_	1	conj	_	_
+yum	_	_	_	_	_	1	conj	_	_
+yum	_	_	_	_	_	1	conj	_	_
+a	_	_	_	_	_	8	reparandum	_	_
+yum	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","yum	_	_	_	_	_	0	root	_	_
+yum	_	_	_	_	_	1	conj	_	_
+yum	_	_	_	_	_	1	conj	_	_
+yum	_	_	_	_	_	1	conj	_	_
+yum	_	_	_	_	_	1	conj	_	_
+yum	_	_	_	_	_	8	discourse	_	_
+a	_	_	_	_	_	8	discourse	_	_
+yum	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","yum	_	INTJ	UH	_	_	8	discourse	_	_
+yum	_	INTJ	UH	_	_	8	discourse	_	_
+yum	_	INTJ	UH	_	_	8	discourse	_	_
+yum	_	INTJ	UH	_	_	8	discourse	_	_
+yum	_	INTJ	UH	_	_	8	discourse	_	_
+yum	_	INTJ	UH	_	_	8	discourse	_	_
+a	_	DET	DT	_	_	8	det	_	_
+yum	_	PROPN	NNP	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	8	punct	_	_"
+yup we don't .,"yup	_	_	_	_	_	3	discourse	_	_
+we	_	_	_	_	_	3	nsubj	_	_
+don't	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","yup	_	_	_	_	_	3	discourse	_	_
+we	_	_	_	_	_	3	nsubj	_	_
+don't	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","yup	_	INTJ	UH	_	_	3	discourse	_	_
+we	_	PRON	PRP	_	_	3	nsubj	_	_
+do	_	AUX	VBP	_	_	0	root	_	_
+n't	_	PART	RB	_	_	3	advmod	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+I can't know how to make a dog .,"I	_	_	_	_	_	3	nsubj	_	_
+can't	_	_	_	_	_	3	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+how	_	_	_	_	_	6	mark	_	_
+to	_	_	_	_	_	6	mark	_	_
+make	_	_	_	_	_	3	ccomp	_	_
+a	_	_	_	_	_	8	det	_	_
+dog	_	_	_	_	_	6	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","I	_	_	_	_	_	3	nsubj	_	_
+can't	_	_	_	_	_	3	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+how	_	_	_	_	_	3	obj	_	_
+to	_	_	_	_	_	6	mark	_	_
+make	_	_	_	_	_	4	acl	_	_
+a	_	_	_	_	_	8	det	_	_
+dog	_	_	_	_	_	6	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","I	_	PRON	PRP	_	_	4	nsubj	_	_
+ca	_	AUX	MD	_	_	4	aux	_	_
+n't	_	PART	RB	_	_	4	advmod	_	_
+know	_	VERB	VB	_	_	0	root	_	_
+how	_	ADV	WRB	_	_	4	obj	_	_
+to	_	PART	TO	_	_	7	mark	_	_
+make	_	VERB	VB	_	_	5	acl	_	_
+a	_	DET	DT	_	_	9	det	_	_
+dog	_	NOUN	NN	_	_	7	obj	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+"um , turn the other page .","um	_	_	_	_	_	3	discourse	_	_
+,	_	_	_	_	_	3	mark	_	_
+turn	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	6	det	_	_
+other	_	_	_	_	_	6	amod	_	_
+page	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","um	_	_	_	_	_	3	discourse	_	_
+,	_	_	_	_	_	1	punct	_	_
+turn	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	6	det	_	_
+other	_	_	_	_	_	6	amod	_	_
+page	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","um	_	INTJ	UH	_	_	3	discourse	_	_
+,	_	PUNCT	,	_	_	1	punct	_	_
+turn	_	VERB	VB	_	_	0	root	_	_
+the	_	DET	DT	_	_	6	det	_	_
+other	_	ADJ	JJ	_	_	6	amod	_	_
+page	_	NOUN	NN	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+"no principals have , these .","no	_	_	_	_	_	2	det	_	_
+principals	_	_	_	_	_	3	nsubj	_	_
+have	_	_	_	_	_	0	root	_	_
+,	_	_	_	_	_	5	case	_	_
+these	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","no	_	_	_	_	_	2	det	_	_
+principals	_	_	_	_	_	3	nsubj	_	_
+have	_	_	_	_	_	0	root	_	_
+,	_	_	_	_	_	5	punct	_	_
+these	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","no	_	DET	DT	_	_	2	det	_	_
+principals	_	NOUN	NNS	_	_	3	nsubj	_	_
+have	_	AUX	VBP	_	_	0	root	_	_
+,	_	PUNCT	,	_	_	5	punct	_	_
+these	_	PRON	DT	_	_	3	vocative	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+there's two .,"there's	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	nsubj	_	_
+.	_	_	_	_	_	1	punct	_	_","there's	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	nsubj	_	_
+.	_	_	_	_	_	1	punct	_	_","there	_	PRON	EX	_	_	2	expl	_	_
+'s	_	VERB	VBZ	_	_	0	root	_	_
+two	_	NUM	CD	_	_	2	nsubj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+wanna buy a chocolate now .,"wanna	_	_	_	_	_	0	root	_	_
+buy	_	_	_	_	_	1	xcomp	_	_
+a	_	_	_	_	_	4	det	_	_
+chocolate	_	_	_	_	_	2	obj	_	_
+now	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","wanna	_	_	_	_	_	0	root	_	_
+buy	_	_	_	_	_	1	xcomp	_	_
+a	_	_	_	_	_	4	det	_	_
+chocolate	_	_	_	_	_	2	obj	_	_
+now	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","wan	_	VERB	VBP	_	_	0	root	_	_
+na	_	PART	TO	_	_	3	mark	_	_
+buy	_	VERB	VB	_	_	1	xcomp	_	_
+a	_	DET	DT	_	_	5	det	_	_
+chocolate	_	NOUN	NN	_	_	3	obj	_	_
+now	_	ADV	RB	_	_	3	advmod	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+you're not .,"you're	_	_	_	_	_	2	nsubj	_	_
+not	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","you're	_	_	_	_	_	2	nsubj	_	_
+not	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","you	_	PRON	PRP	_	_	2	nsubj	_	_
+'re	_	AUX	VBP	_	_	0	root	_	_
+not	_	PART	RB	_	_	2	advmod	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+moo moo .,"moo	_	_	_	_	_	0	root	_	_
+moo	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","moo	_	_	_	_	_	0	root	_	_
+moo	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","moo	_	INTJ	UH	_	_	2	discourse	_	_
+moo	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+neigh neigh .,"neigh	_	_	_	_	_	0	root	_	_
+neigh	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","neigh	_	_	_	_	_	0	root	_	_
+neigh	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","neigh	_	VERB	VB	_	_	0	root	_	_
+neigh	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+firstname like's elephants too .,"firstname	_	_	_	_	_	2	nsubj	_	_
+like's	_	_	_	_	_	0	root	_	_
+elephants	_	_	_	_	_	2	obj	_	_
+too	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","firstname	_	_	_	_	_	2	nsubj	_	_
+like's	_	_	_	_	_	0	root	_	_
+elephants	_	_	_	_	_	2	obj	_	_
+too	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","firstname	_	ADJ	JJ	_	_	4	amod	_	_
+like	_	INTJ	UH	_	_	4	discourse	_	_
+'s	_	AUX	VBZ	_	_	4	cop	_	_
+elephants	_	NOUN	NNS	_	_	0	root	_	_
+too	_	ADV	RB	_	_	4	advmod	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+Mummy do it .,"Mummy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Mummy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Mummy	_	NOUN	NN	_	_	2	nsubj	_	_
+do	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Mummy do it .,"Mummy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Mummy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Mummy	_	NOUN	NN	_	_	2	nsubj	_	_
+do	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Mummy do it .,"Mummy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Mummy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Mummy	_	NOUN	NN	_	_	2	nsubj	_	_
+do	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Mummy do it .,"Mummy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Mummy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Mummy	_	NOUN	NN	_	_	2	nsubj	_	_
+do	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+one two three four five .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	compound	_	_
+two	_	NUM	CD	_	_	3	compound	_	_
+three	_	NUM	CD	_	_	4	compound	_	_
+four	_	NUM	CD	_	_	5	nummod	_	_
+five	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+one two three four five .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	compound	_	_
+two	_	NUM	CD	_	_	3	compound	_	_
+three	_	NUM	CD	_	_	4	compound	_	_
+four	_	NUM	CD	_	_	5	nummod	_	_
+five	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+one two three four five .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	compound	_	_
+two	_	NUM	CD	_	_	3	compound	_	_
+three	_	NUM	CD	_	_	4	compound	_	_
+four	_	NUM	CD	_	_	5	nummod	_	_
+five	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+seven eight nine ten .,"seven	_	_	_	_	_	0	root	_	_
+eight	_	_	_	_	_	1	conj	_	_
+nine	_	_	_	_	_	1	conj	_	_
+ten	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","seven	_	_	_	_	_	0	root	_	_
+eight	_	_	_	_	_	1	conj	_	_
+nine	_	_	_	_	_	1	conj	_	_
+ten	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","seven	_	NUM	CD	_	_	3	nummod	_	_
+eight	_	NUM	CD	_	_	3	compound	_	_
+nine	_	NUM	CD	_	_	4	nummod	_	_
+ten	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+crunch crunch .,"crunch	_	_	_	_	_	0	root	_	_
+crunch	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","crunch	_	_	_	_	_	2	compound	_	_
+crunch	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","crunch	_	NOUN	NN	_	_	2	compound	_	_
+crunch	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+blue blue blue .,"blue	_	_	_	_	_	0	root	_	_
+blue	_	_	_	_	_	1	conj	_	_
+blue	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","blue	_	_	_	_	_	0	root	_	_
+blue	_	_	_	_	_	3	amod	_	_
+blue	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","blue	_	ADJ	JJ	_	_	3	amod	_	_
+blue	_	ADJ	JJ	_	_	3	amod	_	_
+blue	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+my Fireman Sam .,"my	_	_	_	_	_	2	nmod:poss	_	_
+Fireman	_	_	_	_	_	0	root	_	_
+Sam	_	_	_	_	_	2	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","my	_	_	_	_	_	2	nmod:poss	_	_
+Fireman	_	_	_	_	_	0	root	_	_
+Sam	_	_	_	_	_	2	appos	_	_
+.	_	_	_	_	_	2	punct	_	_","my	_	PRON	PRP$	_	_	3	nmod:poss	_	_
+Fireman	_	PROPN	NNP	_	_	3	compound	_	_
+Sam	_	PROPN	NNP	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+climb up my ladders .,"climb	_	_	_	_	_	0	root	_	_
+up	_	_	_	_	_	4	case	_	_
+my	_	_	_	_	_	4	nmod:poss	_	_
+ladders	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","climb	_	_	_	_	_	0	root	_	_
+up	_	_	_	_	_	4	case	_	_
+my	_	_	_	_	_	4	nmod:poss	_	_
+ladders	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","climb	_	VERB	VB	_	_	0	root	_	_
+up	_	ADP	RP	_	_	1	compound:prt	_	_
+my	_	PRON	PRP$	_	_	4	nmod:poss	_	_
+ladders	_	NOUN	NNS	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+blow up and down .,"blow	_	_	_	_	_	0	root	_	_
+up	_	_	_	_	_	1	advmod	_	_
+and	_	_	_	_	_	4	cc	_	_
+down	_	_	_	_	_	2	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","blow	_	_	_	_	_	0	root	_	_
+up	_	_	_	_	_	1	advmod	_	_
+and	_	_	_	_	_	4	cc	_	_
+down	_	_	_	_	_	2	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","blow	_	VERB	VB	_	_	0	root	_	_
+up	_	ADP	RP	_	_	1	compound:prt	_	_
+and	_	CCONJ	CC	_	_	4	cc	_	_
+down	_	ADP	RP	_	_	1	conj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+one two three four five .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	compound	_	_
+two	_	NUM	CD	_	_	3	compound	_	_
+three	_	NUM	CD	_	_	4	compound	_	_
+four	_	NUM	CD	_	_	5	nummod	_	_
+five	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+one two three four .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	compound	_	_
+two	_	NUM	CD	_	_	3	compound	_	_
+three	_	NUM	CD	_	_	4	nummod	_	_
+four	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+my Fireman Sam .,"my	_	_	_	_	_	2	nmod:poss	_	_
+Fireman	_	_	_	_	_	0	root	_	_
+Sam	_	_	_	_	_	2	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","my	_	_	_	_	_	2	nmod:poss	_	_
+Fireman	_	_	_	_	_	0	root	_	_
+Sam	_	_	_	_	_	2	appos	_	_
+.	_	_	_	_	_	2	punct	_	_","my	_	PRON	PRP$	_	_	3	nmod:poss	_	_
+Fireman	_	PROPN	NNP	_	_	3	compound	_	_
+Sam	_	PROPN	NNP	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+it's not going .,"it's	_	_	_	_	_	3	nsubj	_	_
+not	_	_	_	_	_	3	advmod	_	_
+going	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","it's	_	_	_	_	_	3	nsubj	_	_
+not	_	_	_	_	_	3	advmod	_	_
+going	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","it	_	PRON	PRP	_	_	4	nsubj	_	_
+'s	_	AUX	VBZ	_	_	4	aux	_	_
+not	_	PART	RB	_	_	4	advmod	_	_
+going	_	VERB	VBG	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+"hello , cat food .","hello	_	_	_	_	_	4	discourse	_	_
+,	_	_	_	_	_	4	mark	_	_
+cat	_	_	_	_	_	4	compound	_	_
+food	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","hello	_	_	_	_	_	4	discourse	_	_
+,	_	_	_	_	_	4	punct	_	_
+cat	_	_	_	_	_	4	compound	_	_
+food	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","hello	_	INTJ	UH	_	_	4	discourse	_	_
+,	_	PUNCT	,	_	_	1	punct	_	_
+cat	_	NOUN	NN	_	_	4	compound	_	_
+food	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+Tinky Winky and Dipsy look .,"Tinky	_	_	_	_	_	0	root	_	_
+Winky	_	_	_	_	_	1	conj	_	_
+and	_	_	_	_	_	4	cc	_	_
+Dipsy	_	_	_	_	_	1	conj	_	_
+look	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","Tinky	_	_	_	_	_	5	compound	_	_
+Winky	_	_	_	_	_	1	flat	_	_
+and	_	_	_	_	_	4	cc	_	_
+Dipsy	_	_	_	_	_	2	conj	_	_
+look	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	5	punct	_	_","Tinky	_	PROPN	NNP	_	_	5	nsubj	_	_
+Winky	_	PROPN	NNP	_	_	1	flat	_	_
+and	_	CCONJ	CC	_	_	4	cc	_	_
+Dipsy	_	PROPN	NNP	_	_	1	conj	_	_
+look	_	VERB	VBP	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+ice ice .,"ice	_	_	_	_	_	0	root	_	_
+ice	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","ice	_	_	_	_	_	2	compound	_	_
+ice	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","ice	_	NOUN	NN	_	_	2	compound	_	_
+ice	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+eating them all up .,"eating	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	1	obj	_	_
+all	_	_	_	_	_	2	det	_	_
+up	_	_	_	_	_	1	compound:prt	_	_
+.	_	_	_	_	_	1	punct	_	_","eating	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	1	obj	_	_
+all	_	_	_	_	_	2	det	_	_
+up	_	_	_	_	_	1	compound:prt	_	_
+.	_	_	_	_	_	1	punct	_	_","eating	_	VERB	VBG	_	_	0	root	_	_
+them	_	PRON	PRP	_	_	1	obj	_	_
+all	_	DET	DT	_	_	4	det	_	_
+up	_	ADP	RP	_	_	1	compound:prt	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+the little boy eating the strawberry .,"the	_	_	_	_	_	3	det	_	_
+little	_	_	_	_	_	3	amod	_	_
+boy	_	_	_	_	_	4	nsubj	_	_
+eating	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	6	det	_	_
+strawberry	_	_	_	_	_	4	obj	_	_
+.	_	_	_	_	_	4	punct	_	_","the	_	_	_	_	_	3	det	_	_
+little	_	_	_	_	_	3	amod	_	_
+boy	_	_	_	_	_	0	root	_	_
+eating	_	_	_	_	_	3	acl	_	_
+the	_	_	_	_	_	6	det	_	_
+strawberry	_	_	_	_	_	4	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","the	_	DET	DT	_	_	3	det	_	_
+little	_	ADJ	JJ	_	_	3	amod	_	_
+boy	_	NOUN	NN	_	_	0	root	_	_
+eating	_	VERB	VBG	_	_	3	acl	_	_
+the	_	DET	DT	_	_	6	det	_	_
+strawberry	_	NOUN	NN	_	_	4	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+Daddy have one too .,"Daddy	_	_	_	_	_	2	vocative	_	_
+have	_	_	_	_	_	0	root	_	_
+one	_	_	_	_	_	2	obj	_	_
+too	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","Daddy	_	_	_	_	_	2	nsubj	_	_
+have	_	_	_	_	_	0	root	_	_
+one	_	_	_	_	_	2	obj	_	_
+too	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","Daddy	_	PROPN	NNP	_	_	2	nsubj	_	_
+have	_	VERB	VBP	_	_	0	root	_	_
+one	_	NUM	CD	_	_	2	obj	_	_
+too	_	ADV	RB	_	_	2	advmod	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+uh Teletubbies look big bears .,"uh	_	_	_	_	_	3	discourse	_	_
+Teletubbies	_	_	_	_	_	3	nsubj	_	_
+look	_	_	_	_	_	0	root	_	_
+big	_	_	_	_	_	5	amod	_	_
+bears	_	_	_	_	_	3	xcomp	_	_
+.	_	_	_	_	_	3	punct	_	_","uh	_	_	_	_	_	3	discourse	_	_
+Teletubbies	_	_	_	_	_	3	nsubj	_	_
+look	_	_	_	_	_	0	root	_	_
+big	_	_	_	_	_	5	amod	_	_
+bears	_	_	_	_	_	3	xcomp	_	_
+.	_	_	_	_	_	3	punct	_	_","uh	_	INTJ	UH	_	_	3	discourse	_	_
+Teletubbies	_	NOUN	NNS	_	_	3	nsubj	_	_
+look	_	VERB	VBP	_	_	0	root	_	_
+big	_	ADJ	JJ	_	_	5	amod	_	_
+bears	_	NOUN	NNS	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+Teletubb dicky birds on a Christmas tree .,"Teletubb	_	_	_	_	_	3	reparandum	_	_
+dicky	_	_	_	_	_	3	amod	_	_
+birds	_	_	_	_	_	0	root	_	_
+on	_	_	_	_	_	7	case	_	_
+a	_	_	_	_	_	7	det	_	_
+Christmas	_	_	_	_	_	7	compound	_	_
+tree	_	_	_	_	_	3	nmod	_	_
+.	_	_	_	_	_	3	punct	_	_","Teletubb	_	_	_	_	_	3	compound	_	_
+dicky	_	_	_	_	_	3	amod	_	_
+birds	_	_	_	_	_	0	root	_	_
+on	_	_	_	_	_	7	case	_	_
+a	_	_	_	_	_	7	det	_	_
+Christmas	_	_	_	_	_	7	compound	_	_
+tree	_	_	_	_	_	3	nmod	_	_
+.	_	_	_	_	_	3	punct	_	_","Teletubb	_	NOUN	NN	_	_	3	compound	_	_
+dicky	_	NOUN	NN	_	_	3	compound	_	_
+birds	_	NOUN	NNS	_	_	0	root	_	_
+on	_	ADP	IN	_	_	7	case	_	_
+a	_	DET	DT	_	_	7	det	_	_
+Christmas	_	PROPN	NNP	_	_	7	compound	_	_
+tree	_	NOUN	NN	_	_	3	nmod	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+what's burial grounds ?,"what's	_	_	_	_	_	0	root	_	_
+burial	_	_	_	_	_	3	compound	_	_
+grounds	_	_	_	_	_	1	nsubj	_	_
+?	_	_	_	_	_	1	punct	_	_","what's	_	_	_	_	_	3	cop	_	_
+burial	_	_	_	_	_	3	compound	_	_
+grounds	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	3	punct	_	_","what	_	PRON	WP	_	_	0	root	_	_
+'s	_	AUX	VBZ	_	_	1	cop	_	_
+burial	_	NOUN	NN	_	_	4	compound	_	_
+grounds	_	NOUN	NNS	_	_	1	nsubj	_	_
+?	_	PUNCT	.	_	_	1	punct	_	_"
+no no with our honey bread .,"no	_	_	_	_	_	6	discourse	_	_
+no	_	_	_	_	_	1	conj	_	_
+with	_	_	_	_	_	6	case	_	_
+our	_	_	_	_	_	6	nmod:poss	_	_
+honey	_	_	_	_	_	6	compound	_	_
+bread	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	6	punct	_	_","no	_	_	_	_	_	2	discourse	_	_
+no	_	_	_	_	_	0	root	_	_
+with	_	_	_	_	_	6	case	_	_
+our	_	_	_	_	_	6	nmod:poss	_	_
+honey	_	_	_	_	_	6	compound	_	_
+bread	_	_	_	_	_	2	nmod	_	_
+.	_	_	_	_	_	2	punct	_	_","no	_	INTJ	UH	_	_	2	discourse	_	_
+no	_	INTJ	UH	_	_	6	discourse	_	_
+with	_	ADP	IN	_	_	6	case	_	_
+our	_	PRON	PRP$	_	_	6	nmod:poss	_	_
+honey	_	NOUN	NN	_	_	6	compound	_	_
+bread	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+which parts did you like best ?,"which	_	_	_	_	_	2	det	_	_
+parts	_	_	_	_	_	5	obj	_	_
+did	_	_	_	_	_	5	aux	_	_
+you	_	_	_	_	_	5	nsubj	_	_
+like	_	_	_	_	_	0	root	_	_
+best	_	_	_	_	_	5	advmod	_	_
+?	_	_	_	_	_	5	punct	_	_","which	_	_	_	_	_	2	det	_	_
+parts	_	_	_	_	_	5	obj	_	_
+did	_	_	_	_	_	5	aux	_	_
+you	_	_	_	_	_	5	nsubj	_	_
+like	_	_	_	_	_	0	root	_	_
+best	_	_	_	_	_	5	advmod	_	_
+?	_	_	_	_	_	5	punct	_	_","which	_	DET	WDT	_	_	2	det	_	_
+parts	_	NOUN	NNS	_	_	5	obj	_	_
+did	_	AUX	VBD	_	_	5	aux	_	_
+you	_	PRON	PRP	_	_	5	nsubj	_	_
+like	_	VERB	VB	_	_	0	root	_	_
+best	_	ADJ	JJS	_	_	5	xcomp	_	_
+?	_	PUNCT	.	_	_	5	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+help help .,"help	_	_	_	_	_	0	root	_	_
+help	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","help	_	_	_	_	_	0	root	_	_
+help	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","help	_	VERB	VB	_	_	0	root	_	_
+help	_	VERB	VB	_	_	1	xcomp	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin tea .,"Nin	_	_	_	_	_	2	reparandum	_	_
+Nin	_	_	_	_	_	3	nummod	_	_
+tea	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Nin	_	_	_	_	_	2	compound	_	_
+Nin	_	_	_	_	_	3	compound	_	_
+tea	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Nin	_	PROPN	NNP	_	_	3	compound	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+tea	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+snip snip .,"snip	_	_	_	_	_	0	root	_	_
+snip	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","snip	_	_	_	_	_	0	root	_	_
+snip	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","snip	_	NOUN	NN	_	_	2	compound	_	_
+snip	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+snip snip .,"snip	_	_	_	_	_	0	root	_	_
+snip	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","snip	_	_	_	_	_	0	root	_	_
+snip	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","snip	_	NOUN	NN	_	_	2	compound	_	_
+snip	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+snip snip .,"snip	_	_	_	_	_	0	root	_	_
+snip	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","snip	_	_	_	_	_	0	root	_	_
+snip	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","snip	_	NOUN	NN	_	_	2	compound	_	_
+snip	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+choo choos .,"choo	_	_	_	_	_	0	root	_	_
+choos	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	_	_	_	_	2	discourse	_	_
+choos	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","choo	_	PROPN	NNP	_	_	2	compound	_	_
+choos	_	NOUN	NNS	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+choo choo .,"choo	_	_	_	_	_	0	root	_	_
+choo	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	_	_	_	_	0	root	_	_
+choo	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	PROPN	NNP	_	_	0	root	_	_
+choo	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+snip snip .,"snip	_	_	_	_	_	0	root	_	_
+snip	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","snip	_	_	_	_	_	0	root	_	_
+snip	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","snip	_	NOUN	NN	_	_	2	compound	_	_
+snip	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin shoe .,"Nin	_	_	_	_	_	2	reparandum	_	_
+Nin	_	_	_	_	_	3	compound	_	_
+shoe	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Nin	_	_	_	_	_	3	compound	_	_
+Nin	_	_	_	_	_	3	compound	_	_
+shoe	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Nin	_	PROPN	NNP	_	_	3	compound	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+shoe	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin shoe .,"Nin	_	_	_	_	_	2	reparandum	_	_
+Nin	_	_	_	_	_	3	compound	_	_
+shoe	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Nin	_	_	_	_	_	3	compound	_	_
+Nin	_	_	_	_	_	3	compound	_	_
+shoe	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Nin	_	PROPN	NNP	_	_	3	compound	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+shoe	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Noo Noo .,"Noo	_	_	_	_	_	0	root	_	_
+Noo	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Noo	_	_	_	_	_	0	root	_	_
+Noo	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","Noo	_	INTJ	UH	_	_	2	discourse	_	_
+Noo	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+vroom vroom .,"vroom	_	_	_	_	_	0	root	_	_
+vroom	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","vroom	_	_	_	_	_	0	root	_	_
+vroom	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","vroom	_	NOUN	NN	_	_	2	compound	_	_
+vroom	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+boo boo .,"boo	_	_	_	_	_	0	root	_	_
+boo	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","boo	_	_	_	_	_	0	root	_	_
+boo	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","boo	_	VERB	VB	_	_	0	root	_	_
+boo	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Nin Nin .,"Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Nin	_	_	_	_	_	0	root	_	_
+Nin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","Nin	_	PROPN	NNP	_	_	0	root	_	_
+Nin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Daddy do it .,"Daddy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Daddy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Daddy	_	PROPN	NNP	_	_	2	nsubj	_	_
+do	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Daddy do it .,"Daddy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Daddy	_	_	_	_	_	2	vocative	_	_
+do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Daddy	_	PROPN	NNP	_	_	2	nsubj	_	_
+do	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+num um .,"num	_	_	_	_	_	0	root	_	_
+um	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","num	_	_	_	_	_	0	root	_	_
+um	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","num	_	INTJ	UH	_	_	0	root	_	_
+um	_	INTJ	UH	_	_	1	discourse	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+a nanny donut .,"a	_	_	_	_	_	3	det	_	_
+nanny	_	_	_	_	_	3	compound	_	_
+donut	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","a	_	_	_	_	_	3	det	_	_
+nanny	_	_	_	_	_	3	compound	_	_
+donut	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","a	_	DET	DT	_	_	2	det	_	_
+nanny	_	NOUN	NN	_	_	3	nsubj	_	_
+do	_	VERB	VB	_	_	0	root	_	_
+nut	_	NOUN	NN	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+a nanny donut !,"a	_	_	_	_	_	3	det	_	_
+nanny	_	_	_	_	_	3	compound	_	_
+donut	_	_	_	_	_	0	root	_	_
+!	_	_	_	_	_	3	punct	_	_","a	_	_	_	_	_	3	det	_	_
+nanny	_	_	_	_	_	3	compound	_	_
+donut	_	_	_	_	_	0	root	_	_
+!	_	_	_	_	_	3	punct	_	_","a	_	DET	DT	_	_	2	det	_	_
+nanny	_	NOUN	NN	_	_	3	nsubj	_	_
+do	_	VERB	VB	_	_	0	root	_	_
+nut	_	NOUN	NN	_	_	3	obj	_	_
+!	_	PUNCT	.	_	_	3	punct	_	_"
+nanny a donut !,"nanny	_	_	_	_	_	3	vocative	_	_
+a	_	_	_	_	_	3	det	_	_
+donut	_	_	_	_	_	0	root	_	_
+!	_	_	_	_	_	3	punct	_	_","nanny	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	3	det	_	_
+donut	_	_	_	_	_	1	obj	_	_
+!	_	_	_	_	_	1	punct	_	_","nanny	_	NOUN	NN	_	_	3	nsubj	_	_
+a	_	DET	DT	_	_	3	det	_	_
+donut	_	NOUN	NN	_	_	0	root	_	_
+!	_	PUNCT	.	_	_	3	punct	_	_"
+um um .,"um	_	_	_	_	_	0	root	_	_
+um	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","um	_	_	_	_	_	0	root	_	_
+um	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","um	_	INTJ	UH	_	_	0	root	_	_
+um	_	INTJ	UH	_	_	1	discourse	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+eat mommy .,"eat	_	_	_	_	_	0	root	_	_
+mommy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","eat	_	_	_	_	_	0	root	_	_
+mommy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","eat	_	VERB	VB	_	_	0	root	_	_
+mommy	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+eat mommy .,"eat	_	_	_	_	_	0	root	_	_
+mommy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","eat	_	_	_	_	_	0	root	_	_
+mommy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","eat	_	VERB	VB	_	_	0	root	_	_
+mommy	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Pur Purdie .,"Pur	_	_	_	_	_	0	root	_	_
+Purdie	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","Pur	_	_	_	_	_	2	compound	_	_
+Purdie	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","Pur	_	PROPN	NNP	_	_	0	root	_	_
+Purdie	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Pur Purdie .,"Pur	_	_	_	_	_	0	root	_	_
+Purdie	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","Pur	_	_	_	_	_	2	compound	_	_
+Purdie	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","Pur	_	PROPN	NNP	_	_	0	root	_	_
+Purdie	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Pur Toby .,"Pur	_	_	_	_	_	0	root	_	_
+Toby	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","Pur	_	_	_	_	_	2	amod	_	_
+Toby	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","Pur	_	PROPN	NNP	_	_	0	root	_	_
+Toby	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+oh there's a lot of engines on .,"oh	_	_	_	_	_	4	discourse	_	_
+there's	_	_	_	_	_	4	expl	_	_
+a	_	_	_	_	_	4	det	_	_
+lot	_	_	_	_	_	0	root	_	_
+of	_	_	_	_	_	6	case	_	_
+engines	_	_	_	_	_	4	nmod	_	_
+on	_	_	_	_	_	4	advmod	_	_
+.	_	_	_	_	_	4	punct	_	_","oh	_	_	_	_	_	2	discourse	_	_
+there's	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	4	det	_	_
+lot	_	_	_	_	_	2	nsubj	_	_
+of	_	_	_	_	_	6	case	_	_
+engines	_	_	_	_	_	4	nmod	_	_
+on	_	_	_	_	_	4	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","oh	_	INTJ	UH	_	_	3	discourse	_	_
+there	_	PRON	EX	_	_	3	expl	_	_
+'s	_	VERB	VBZ	_	_	0	root	_	_
+a	_	DET	DT	_	_	5	det	_	_
+lot	_	NOUN	NN	_	_	3	nsubj	_	_
+of	_	ADP	IN	_	_	7	case	_	_
+engines	_	NOUN	NNS	_	_	5	nmod	_	_
+on	_	ADP	IN	_	_	3	advmod	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+two three .,"two	_	_	_	_	_	0	root	_	_
+three	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","two	_	_	_	_	_	0	root	_	_
+three	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","two	_	NUM	CD	_	_	2	nummod	_	_
+three	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+blue green .,"blue	_	_	_	_	_	0	root	_	_
+green	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","blue	_	_	_	_	_	2	amod	_	_
+green	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","blue	_	ADJ	JJ	_	_	2	amod	_	_
+green	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+no no sing that .,"no	_	_	_	_	_	3	discourse	_	_
+no	_	_	_	_	_	1	conj	_	_
+sing	_	_	_	_	_	0	root	_	_
+that	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","no	_	_	_	_	_	3	discourse	_	_
+no	_	_	_	_	_	3	discourse	_	_
+sing	_	_	_	_	_	0	root	_	_
+that	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","no	_	INTJ	UH	_	_	3	discourse	_	_
+no	_	INTJ	UH	_	_	3	discourse	_	_
+sing	_	VERB	VB	_	_	0	root	_	_
+that	_	PRON	DT	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+fire a fire a fire on the line .,"fire	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	3	det	_	_
+fire	_	_	_	_	_	1	conj	_	_
+a	_	_	_	_	_	5	det	_	_
+fire	_	_	_	_	_	1	parataxis	_	_
+on	_	_	_	_	_	8	case	_	_
+the	_	_	_	_	_	8	det	_	_
+line	_	_	_	_	_	5	nmod	_	_
+.	_	_	_	_	_	1	punct	_	_","fire	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	3	det	_	_
+fire	_	_	_	_	_	1	obj	_	_
+a	_	_	_	_	_	5	det	_	_
+fire	_	_	_	_	_	1	obj	_	_
+on	_	_	_	_	_	8	case	_	_
+the	_	_	_	_	_	8	det	_	_
+line	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","fire	_	VERB	VB	_	_	0	root	_	_
+a	_	DET	DT	_	_	3	det	_	_
+fire	_	NOUN	NN	_	_	1	obj	_	_
+a	_	DET	DT	_	_	5	det	_	_
+fire	_	NOUN	NN	_	_	1	obj	_	_
+on	_	ADP	IN	_	_	8	case	_	_
+the	_	DET	DT	_	_	8	det	_	_
+line	_	NOUN	NN	_	_	1	obl	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+fire on there .,"fire	_	_	_	_	_	0	root	_	_
+on	_	_	_	_	_	3	case	_	_
+there	_	_	_	_	_	1	nmod	_	_
+.	_	_	_	_	_	1	punct	_	_","fire	_	_	_	_	_	0	root	_	_
+on	_	_	_	_	_	3	case	_	_
+there	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","fire	_	NOUN	NN	_	_	0	root	_	_
+on	_	ADP	IN	_	_	3	case	_	_
+there	_	ADV	RB	_	_	1	nmod	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+get it in my poo .,"get	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	1	obj	_	_
+in	_	_	_	_	_	5	case	_	_
+my	_	_	_	_	_	5	nmod:poss	_	_
+poo	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","get	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	1	obj	_	_
+in	_	_	_	_	_	5	case	_	_
+my	_	_	_	_	_	5	nmod:poss	_	_
+poo	_	_	_	_	_	1	xcomp	_	_
+.	_	_	_	_	_	1	punct	_	_","get	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	1	obj	_	_
+in	_	ADP	IN	_	_	5	case	_	_
+my	_	PRON	PRP$	_	_	5	nmod:poss	_	_
+poo	_	NOUN	NN	_	_	1	obl	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+here's the digger fix .,"here's	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	4	det	_	_
+digger	_	_	_	_	_	4	compound	_	_
+fix	_	_	_	_	_	1	nsubj	_	_
+.	_	_	_	_	_	1	punct	_	_","here's	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	4	det	_	_
+digger	_	_	_	_	_	4	compound	_	_
+fix	_	_	_	_	_	1	nsubj	_	_
+.	_	_	_	_	_	1	punct	_	_","here	_	ADV	RB	_	_	0	root	_	_
+'s	_	AUX	VBZ	_	_	1	cop	_	_
+the	_	DET	DT	_	_	5	det	_	_
+digger	_	NOUN	NN	_	_	5	compound	_	_
+fix	_	NOUN	NN	_	_	1	nsubj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+don't know .,"don't	_	_	_	_	_	2	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","don't	_	_	_	_	_	2	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","do	_	AUX	VBP	_	_	3	aux	_	_
+n't	_	PART	RB	_	_	3	advmod	_	_
+know	_	VERB	VB	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+more like a digger .,"more	_	_	_	_	_	4	advmod	_	_
+like	_	_	_	_	_	4	case	_	_
+a	_	_	_	_	_	4	det	_	_
+digger	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","more	_	_	_	_	_	4	advmod	_	_
+like	_	_	_	_	_	4	case	_	_
+a	_	_	_	_	_	4	det	_	_
+digger	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","more	_	ADJ	JJR	_	_	0	root	_	_
+like	_	ADP	IN	_	_	4	case	_	_
+a	_	DET	DT	_	_	4	det	_	_
+digger	_	NOUN	NN	_	_	1	obl	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+lot lots of fire on your side .,"lot	_	_	_	_	_	2	reparandum	_	_
+lots	_	_	_	_	_	0	root	_	_
+of	_	_	_	_	_	4	case	_	_
+fire	_	_	_	_	_	2	nmod	_	_
+on	_	_	_	_	_	7	case	_	_
+your	_	_	_	_	_	7	nmod:poss	_	_
+side	_	_	_	_	_	4	nmod	_	_
+.	_	_	_	_	_	2	punct	_	_","lot	_	_	_	_	_	2	reparandum	_	_
+lots	_	_	_	_	_	0	root	_	_
+of	_	_	_	_	_	4	case	_	_
+fire	_	_	_	_	_	2	nmod	_	_
+on	_	_	_	_	_	7	case	_	_
+your	_	_	_	_	_	7	nmod:poss	_	_
+side	_	_	_	_	_	2	nmod	_	_
+.	_	_	_	_	_	2	punct	_	_","lot	_	NOUN	NN	_	_	2	compound	_	_
+lots	_	NOUN	NNS	_	_	0	root	_	_
+of	_	ADP	IN	_	_	4	case	_	_
+fire	_	NOUN	NN	_	_	2	nmod	_	_
+on	_	ADP	IN	_	_	7	case	_	_
+your	_	PRON	PRP$	_	_	7	nmod:poss	_	_
+side	_	NOUN	NN	_	_	2	nmod	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+it's it's not lots of passengers .,"it's	_	_	_	_	_	2	reparandum	_	_
+it's	_	_	_	_	_	4	nsubj	_	_
+not	_	_	_	_	_	4	advmod	_	_
+lots	_	_	_	_	_	0	root	_	_
+of	_	_	_	_	_	6	case	_	_
+passengers	_	_	_	_	_	4	nmod	_	_
+.	_	_	_	_	_	4	punct	_	_","it's	_	_	_	_	_	4	reparandum	_	_
+it's	_	_	_	_	_	4	cop	_	_
+not	_	_	_	_	_	4	advmod	_	_
+lots	_	_	_	_	_	0	root	_	_
+of	_	_	_	_	_	6	case	_	_
+passengers	_	_	_	_	_	4	nmod	_	_
+.	_	_	_	_	_	4	punct	_	_","it	_	PRON	PRP	_	_	6	nsubj	_	_
+'s	_	AUX	VBZ	_	_	6	cop	_	_
+it	_	PRON	PRP	_	_	6	nsubj	_	_
+'s	_	AUX	VBZ	_	_	6	cop	_	_
+not	_	PART	RB	_	_	6	advmod	_	_
+lots	_	NOUN	NNS	_	_	0	root	_	_
+of	_	ADP	IN	_	_	8	case	_	_
+passengers	_	NOUN	NNS	_	_	6	nmod	_	_
+.	_	PUNCT	.	_	_	6	punct	_	_"
+no Mummy touch them .,"no	_	_	_	_	_	3	discourse	_	_
+Mummy	_	_	_	_	_	3	vocative	_	_
+touch	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","no	_	_	_	_	_	2	det	_	_
+Mummy	_	_	_	_	_	3	nsubj	_	_
+touch	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","no	_	DET	DT	_	_	2	det	_	_
+Mummy	_	NOUN	NN	_	_	3	nsubj	_	_
+touch	_	VERB	VB	_	_	0	root	_	_
+them	_	PRON	PRP	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+move off a minute .,"move	_	_	_	_	_	0	root	_	_
+off	_	_	_	_	_	1	compound:prt	_	_
+a	_	_	_	_	_	4	det	_	_
+minute	_	_	_	_	_	1	obl:unmarked	_	_
+.	_	_	_	_	_	1	punct	_	_","move	_	_	_	_	_	0	root	_	_
+off	_	_	_	_	_	1	advmod	_	_
+a	_	_	_	_	_	4	det	_	_
+minute	_	_	_	_	_	1	obl:unmarked	_	_
+.	_	_	_	_	_	1	punct	_	_","move	_	VERB	VB	_	_	0	root	_	_
+off	_	ADP	RP	_	_	1	compound:prt	_	_
+a	_	DET	DT	_	_	4	det	_	_
+minute	_	NOUN	NN	_	_	1	obl:unmarked	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+stop a minute .,"stop	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	3	det	_	_
+minute	_	_	_	_	_	1	obl:unmarked	_	_
+.	_	_	_	_	_	1	punct	_	_","stop	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	3	det	_	_
+minute	_	_	_	_	_	1	obl:unmarked	_	_
+.	_	_	_	_	_	1	punct	_	_","stop	_	VERB	VB	_	_	0	root	_	_
+a	_	DET	DT	_	_	3	det	_	_
+minute	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+a driver a driver a driver .,"a	_	_	_	_	_	2	det	_	_
+driver	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	4	det	_	_
+driver	_	_	_	_	_	2	conj	_	_
+a	_	_	_	_	_	6	det	_	_
+driver	_	_	_	_	_	2	conj	_	_
+.	_	_	_	_	_	2	punct	_	_","a	_	_	_	_	_	2	det	_	_
+driver	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	4	det	_	_
+driver	_	_	_	_	_	2	conj	_	_
+a	_	_	_	_	_	6	det	_	_
+driver	_	_	_	_	_	2	appos	_	_
+.	_	_	_	_	_	2	punct	_	_","a	_	DET	DT	_	_	2	det	_	_
+driver	_	NOUN	NN	_	_	0	root	_	_
+a	_	DET	DT	_	_	4	det	_	_
+driver	_	NOUN	NN	_	_	2	appos	_	_
+a	_	DET	DT	_	_	6	det	_	_
+driver	_	NOUN	NN	_	_	4	appos	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+dig dig dig .,"dig	_	_	_	_	_	0	root	_	_
+dig	_	_	_	_	_	1	conj	_	_
+dig	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","dig	_	_	_	_	_	0	root	_	_
+dig	_	_	_	_	_	3	discourse	_	_
+dig	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","dig	_	VERB	VB	_	_	0	root	_	_
+dig	_	NOUN	NN	_	_	3	compound	_	_
+dig	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+shh shh .,"shh	_	_	_	_	_	0	root	_	_
+shh	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","shh	_	_	_	_	_	0	root	_	_
+shh	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","shh	_	INTJ	UH	_	_	2	discourse	_	_
+shh	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+um um .,"um	_	_	_	_	_	0	root	_	_
+um	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","um	_	_	_	_	_	0	root	_	_
+um	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","um	_	INTJ	UH	_	_	0	root	_	_
+um	_	INTJ	UH	_	_	1	discourse	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+there's the cars .,"there's	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	3	det	_	_
+cars	_	_	_	_	_	1	nsubj	_	_
+.	_	_	_	_	_	1	punct	_	_","there's	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	3	det	_	_
+cars	_	_	_	_	_	1	nsubj	_	_
+.	_	_	_	_	_	1	punct	_	_","there	_	PRON	EX	_	_	2	expl	_	_
+'s	_	VERB	VBZ	_	_	0	root	_	_
+the	_	DET	DT	_	_	4	det	_	_
+cars	_	NOUN	NNS	_	_	2	nsubj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+shh shh .,"shh	_	_	_	_	_	0	root	_	_
+shh	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","shh	_	_	_	_	_	0	root	_	_
+shh	_	_	_	_	_	1	discourse	_	_
+.	_	_	_	_	_	1	punct	_	_","shh	_	INTJ	UH	_	_	2	discourse	_	_
+shh	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+another one near Sue's house .,"another	_	_	_	_	_	2	det	_	_
+one	_	_	_	_	_	0	root	_	_
+near	_	_	_	_	_	5	case	_	_
+Sue's	_	_	_	_	_	5	nmod:poss	_	_
+house	_	_	_	_	_	2	nmod	_	_
+.	_	_	_	_	_	2	punct	_	_","another	_	_	_	_	_	2	det	_	_
+one	_	_	_	_	_	0	root	_	_
+near	_	_	_	_	_	5	case	_	_
+Sue's	_	_	_	_	_	5	nmod:poss	_	_
+house	_	_	_	_	_	2	nmod	_	_
+.	_	_	_	_	_	2	punct	_	_","another	_	DET	DT	_	_	2	det	_	_
+one	_	NOUN	NN	_	_	0	root	_	_
+near	_	ADP	IN	_	_	6	case	_	_
+Sue	_	PROPN	NNP	_	_	6	nmod:poss	_	_
+'s	_	PART	POS	_	_	4	case	_	_
+house	_	NOUN	NN	_	_	2	nmod	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+one two three .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	nummod	_	_
+two	_	NUM	CD	_	_	3	nummod	_	_
+three	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+one two three .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	nummod	_	_
+two	_	NUM	CD	_	_	3	nummod	_	_
+three	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+a a red one .,"a	_	_	_	_	_	2	reparandum	_	_
+a	_	_	_	_	_	4	det	_	_
+red	_	_	_	_	_	4	amod	_	_
+one	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","a	_	_	_	_	_	4	reparandum	_	_
+a	_	_	_	_	_	4	det	_	_
+red	_	_	_	_	_	4	amod	_	_
+one	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","a	_	DET	DT	_	_	4	det	_	_
+a	_	DET	DT	_	_	4	det	_	_
+red	_	ADJ	JJ	_	_	4	amod	_	_
+one	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+a baby one .,"a	_	_	_	_	_	3	det	_	_
+baby	_	_	_	_	_	3	amod	_	_
+one	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","a	_	_	_	_	_	3	det	_	_
+baby	_	_	_	_	_	3	compound	_	_
+one	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","a	_	DET	DT	_	_	3	det	_	_
+baby	_	NOUN	NN	_	_	3	compound	_	_
+one	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+a baby one .,"a	_	_	_	_	_	3	det	_	_
+baby	_	_	_	_	_	3	amod	_	_
+one	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","a	_	_	_	_	_	3	det	_	_
+baby	_	_	_	_	_	3	compound	_	_
+one	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","a	_	DET	DT	_	_	3	det	_	_
+baby	_	NOUN	NN	_	_	3	compound	_	_
+one	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+fall down .,"fall	_	_	_	_	_	0	root	_	_
+down	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","fall	_	_	_	_	_	0	root	_	_
+down	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","fall	_	VERB	VB	_	_	0	root	_	_
+down	_	ADP	RP	_	_	1	compound:prt	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+all up .,"all	_	_	_	_	_	2	advmod	_	_
+up	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","all	_	_	_	_	_	2	advmod	_	_
+up	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","all	_	DET	DT	_	_	2	det	_	_
+up	_	ADP	RP	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+do it maam .,"do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	1	obj	_	_
+maam	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","do	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	1	obj	_	_
+maam	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","do	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	1	obj	_	_
+maam	_	VERB	VB	_	_	1	xcomp	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+get out .,"get	_	_	_	_	_	0	root	_	_
+out	_	_	_	_	_	1	compound:prt	_	_
+.	_	_	_	_	_	1	punct	_	_","get	_	_	_	_	_	0	root	_	_
+out	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","get	_	VERB	VB	_	_	0	root	_	_
+out	_	ADP	RP	_	_	1	compound:prt	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+walk this line walk up this line .,"walk	_	_	_	_	_	0	root	_	_
+this	_	_	_	_	_	3	det	_	_
+line	_	_	_	_	_	1	obj	_	_
+walk	_	_	_	_	_	1	parataxis	_	_
+up	_	_	_	_	_	4	compound:prt	_	_
+this	_	_	_	_	_	7	det	_	_
+line	_	_	_	_	_	4	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","walk	_	_	_	_	_	0	root	_	_
+this	_	_	_	_	_	3	det	_	_
+line	_	_	_	_	_	1	obj	_	_
+walk	_	_	_	_	_	1	conj	_	_
+up	_	_	_	_	_	4	compound:prt	_	_
+this	_	_	_	_	_	7	det	_	_
+line	_	_	_	_	_	4	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","walk	_	VERB	VB	_	_	0	root	_	_
+this	_	DET	DT	_	_	3	det	_	_
+line	_	NOUN	NN	_	_	1	obj	_	_
+walk	_	VERB	VB	_	_	1	xcomp	_	_
+up	_	ADP	IN	_	_	7	case	_	_
+this	_	DET	DT	_	_	7	det	_	_
+line	_	NOUN	NN	_	_	4	obl	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+wee down .,"wee	_	_	_	_	_	0	root	_	_
+down	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","wee	_	_	_	_	_	0	root	_	_
+down	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","wee	_	VERB	VB	_	_	0	root	_	_
+down	_	ADP	RP	_	_	1	compound:prt	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+wee down .,"wee	_	_	_	_	_	0	root	_	_
+down	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","wee	_	_	_	_	_	0	root	_	_
+down	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","wee	_	VERB	VB	_	_	0	root	_	_
+down	_	ADP	RP	_	_	1	compound:prt	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+vroom vroom .,"vroom	_	_	_	_	_	0	root	_	_
+vroom	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","vroom	_	_	_	_	_	0	root	_	_
+vroom	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","vroom	_	NOUN	NN	_	_	2	compound	_	_
+vroom	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+choo choo .,"choo	_	_	_	_	_	0	root	_	_
+choo	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	_	_	_	_	0	root	_	_
+choo	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	PROPN	NNP	_	_	0	root	_	_
+choo	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+there there .,"there	_	_	_	_	_	0	root	_	_
+there	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","there	_	_	_	_	_	0	root	_	_
+there	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","there	_	ADV	RB	_	_	0	root	_	_
+there	_	ADV	RB	_	_	1	advmod	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+there there .,"there	_	_	_	_	_	0	root	_	_
+there	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","there	_	_	_	_	_	0	root	_	_
+there	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","there	_	ADV	RB	_	_	0	root	_	_
+there	_	ADV	RB	_	_	1	advmod	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+all done now .,"all	_	_	_	_	_	2	advmod	_	_
+done	_	_	_	_	_	0	root	_	_
+now	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","all	_	_	_	_	_	2	advmod	_	_
+done	_	_	_	_	_	0	root	_	_
+now	_	_	_	_	_	2	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","all	_	DET	DT	_	_	2	nsubj:pass	_	_
+done	_	VERB	VBN	_	_	0	root	_	_
+now	_	ADV	RB	_	_	2	advmod	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+shake shake .,"shake	_	_	_	_	_	0	root	_	_
+shake	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","shake	_	_	_	_	_	0	root	_	_
+shake	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","shake	_	VERB	VB	_	_	0	root	_	_
+shake	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+again again .,"again	_	_	_	_	_	0	root	_	_
+again	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","again	_	_	_	_	_	2	advmod	_	_
+again	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	1	punct	_	_","again	_	ADV	RB	_	_	2	advmod	_	_
+again	_	ADV	RB	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+one two three seven eight .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+seven	_	_	_	_	_	1	conj	_	_
+eight	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+seven	_	_	_	_	_	1	conj	_	_
+eight	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	compound	_	_
+two	_	NUM	CD	_	_	3	compound	_	_
+three	_	NUM	CD	_	_	5	nummod	_	_
+seven	_	NUM	CD	_	_	5	nummod	_	_
+eight	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+one two three four five six seven eight nine ten eleven twelve fourteen .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+six	_	_	_	_	_	1	conj	_	_
+seven	_	_	_	_	_	1	conj	_	_
+eight	_	_	_	_	_	1	conj	_	_
+nine	_	_	_	_	_	1	conj	_	_
+ten	_	_	_	_	_	1	conj	_	_
+eleven	_	_	_	_	_	1	conj	_	_
+twelve	_	_	_	_	_	1	conj	_	_
+fourteen	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+six	_	_	_	_	_	1	conj	_	_
+seven	_	_	_	_	_	1	conj	_	_
+eight	_	_	_	_	_	7	conj	_	_
+nine	_	_	_	_	_	8	conj	_	_
+ten	_	_	_	_	_	8	conj	_	_
+eleven	_	_	_	_	_	10	conj	_	_
+twelve	_	_	_	_	_	13	case	_	_
+fourteen	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	compound	_	_
+two	_	NUM	CD	_	_	3	compound	_	_
+three	_	NUM	CD	_	_	4	compound	_	_
+four	_	NUM	CD	_	_	5	compound	_	_
+five	_	NUM	CD	_	_	6	compound	_	_
+six	_	NUM	CD	_	_	8	compound	_	_
+seven	_	NUM	CD	_	_	8	compound	_	_
+eight	_	NUM	CD	_	_	9	compound	_	_
+nine	_	NUM	CD	_	_	10	compound	_	_
+ten	_	NUM	CD	_	_	11	compound	_	_
+eleven	_	NUM	CD	_	_	12	compound	_	_
+twelve	_	NUM	CD	_	_	0	root	_	_
+fourteen	_	NUM	CD	_	_	12	compound	_	_
+.	_	PUNCT	.	_	_	13	punct	_	_"
+take the babies out of there .,"take	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	3	det	_	_
+babies	_	_	_	_	_	1	obj	_	_
+out	_	_	_	_	_	6	case	_	_
+of	_	_	_	_	_	6	case	_	_
+there	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","take	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	3	det	_	_
+babies	_	_	_	_	_	1	obj	_	_
+out	_	_	_	_	_	6	case	_	_
+of	_	_	_	_	_	4	fixed	_	_
+there	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","take	_	VERB	VB	_	_	0	root	_	_
+the	_	DET	DT	_	_	3	det	_	_
+babies	_	NOUN	NNS	_	_	1	obj	_	_
+out	_	ADP	IN	_	_	6	case	_	_
+of	_	ADP	IN	_	_	6	case	_	_
+there	_	ADV	RB	_	_	1	obl	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+to pop in the food .,"to	_	_	_	_	_	2	mark	_	_
+pop	_	_	_	_	_	0	root	_	_
+in	_	_	_	_	_	5	case	_	_
+the	_	_	_	_	_	5	det	_	_
+food	_	_	_	_	_	2	obl	_	_
+.	_	_	_	_	_	2	punct	_	_","to	_	_	_	_	_	2	mark	_	_
+pop	_	_	_	_	_	0	root	_	_
+in	_	_	_	_	_	5	case	_	_
+the	_	_	_	_	_	5	det	_	_
+food	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","to	_	PART	TO	_	_	2	mark	_	_
+pop	_	VERB	VB	_	_	0	root	_	_
+in	_	ADP	IN	_	_	2	compound:prt	_	_
+the	_	DET	DT	_	_	5	det	_	_
+food	_	NOUN	NN	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+with on the beach .,"with	_	_	_	_	_	0	root	_	_
+on	_	_	_	_	_	4	case	_	_
+the	_	_	_	_	_	4	det	_	_
+beach	_	_	_	_	_	1	obl	_	_
+.	_	_	_	_	_	1	punct	_	_","with	_	_	_	_	_	4	mark	_	_
+on	_	_	_	_	_	4	case	_	_
+the	_	_	_	_	_	4	det	_	_
+beach	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","with	_	ADP	IN	_	_	4	case	_	_
+on	_	ADP	IN	_	_	4	case	_	_
+the	_	DET	DT	_	_	4	det	_	_
+beach	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+for Mickey mouse .,"for	_	_	_	_	_	2	case	_	_
+Mickey	_	_	_	_	_	0	root	_	_
+mouse	_	_	_	_	_	2	flat	_	_
+.	_	_	_	_	_	2	punct	_	_","for	_	_	_	_	_	3	case	_	_
+Mickey	_	_	_	_	_	3	compound	_	_
+mouse	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","for	_	ADP	IN	_	_	3	case	_	_
+Mickey	_	PROPN	NNP	_	_	3	compound	_	_
+mouse	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+see um get this .,"see	_	_	_	_	_	0	root	_	_
+um	_	_	_	_	_	1	discourse	_	_
+get	_	_	_	_	_	1	parataxis	_	_
+this	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","see	_	_	_	_	_	0	root	_	_
+um	_	_	_	_	_	1	discourse	_	_
+get	_	_	_	_	_	1	parataxis	_	_
+this	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","see	_	VERB	VB	_	_	0	root	_	_
+um	_	INTJ	UH	_	_	3	discourse	_	_
+get	_	VERB	VB	_	_	1	xcomp	_	_
+this	_	PRON	DT	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+see it does !,"see	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	3	nsubj	_	_
+does	_	_	_	_	_	1	parataxis	_	_
+!	_	_	_	_	_	1	punct	_	_","see	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	3	nsubj	_	_
+does	_	_	_	_	_	1	ccomp	_	_
+!	_	_	_	_	_	1	punct	_	_","see	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	3	nsubj	_	_
+does	_	AUX	VBZ	_	_	1	ccomp	_	_
+!	_	PUNCT	.	_	_	1	punct	_	_"
+see it them ?,"see	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	1	obj	_	_
+them	_	_	_	_	_	1	parataxis	_	_
+?	_	_	_	_	_	1	punct	_	_","see	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	1	obj	_	_
+them	_	_	_	_	_	1	obj	_	_
+?	_	_	_	_	_	1	punct	_	_","see	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	1	obj	_	_
+them	_	PRON	PRP	_	_	1	obj	_	_
+?	_	PUNCT	.	_	_	1	punct	_	_"
+oops oops .,"oops	_	_	_	_	_	0	root	_	_
+oops	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","oops	_	_	_	_	_	0	root	_	_
+oops	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","oops	_	NOUN	NN	_	_	2	compound	_	_
+oops	_	NOUN	NNS	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+I forgot to go tee tee .,"I	_	_	_	_	_	2	nsubj	_	_
+forgot	_	_	_	_	_	0	root	_	_
+to	_	_	_	_	_	4	mark	_	_
+go	_	_	_	_	_	2	xcomp	_	_
+tee	_	_	_	_	_	6	compound	_	_
+tee	_	_	_	_	_	4	xcomp	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	_	_	_	_	2	nsubj	_	_
+forgot	_	_	_	_	_	0	root	_	_
+to	_	_	_	_	_	4	mark	_	_
+go	_	_	_	_	_	2	xcomp	_	_
+tee	_	_	_	_	_	6	compound	_	_
+tee	_	_	_	_	_	4	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	PRON	PRP	_	_	2	nsubj	_	_
+forgot	_	VERB	VBD	_	_	0	root	_	_
+to	_	PART	TO	_	_	4	mark	_	_
+go	_	VERB	VB	_	_	2	xcomp	_	_
+tee	_	NOUN	NN	_	_	6	compound	_	_
+tee	_	NOUN	NN	_	_	4	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+no I went tee tee .,"no	_	_	_	_	_	3	discourse	_	_
+I	_	_	_	_	_	3	nsubj	_	_
+went	_	_	_	_	_	0	root	_	_
+tee	_	_	_	_	_	3	xcomp	_	_
+tee	_	_	_	_	_	4	conj	_	_
+.	_	_	_	_	_	3	punct	_	_","no	_	_	_	_	_	3	discourse	_	_
+I	_	_	_	_	_	3	nsubj	_	_
+went	_	_	_	_	_	0	root	_	_
+tee	_	_	_	_	_	5	compound	_	_
+tee	_	_	_	_	_	3	xcomp	_	_
+.	_	_	_	_	_	3	punct	_	_","no	_	INTJ	UH	_	_	3	discourse	_	_
+I	_	PRON	PRP	_	_	3	nsubj	_	_
+went	_	VERB	VBD	_	_	0	root	_	_
+tee	_	NOUN	NN	_	_	5	compound	_	_
+tee	_	NOUN	NN	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+you've eaten Sister Eileen chocolates ?,"you've	_	_	_	_	_	2	nsubj	_	_
+eaten	_	_	_	_	_	0	root	_	_
+Sister	_	_	_	_	_	5	compound	_	_
+Eileen	_	_	_	_	_	3	flat	_	_
+chocolates	_	_	_	_	_	2	obj	_	_
+?	_	_	_	_	_	2	punct	_	_","you've	_	_	_	_	_	2	nsubj	_	_
+eaten	_	_	_	_	_	0	root	_	_
+Sister	_	_	_	_	_	4	nmod:desc	_	_
+Eileen	_	_	_	_	_	5	compound	_	_
+chocolates	_	_	_	_	_	2	obj	_	_
+?	_	_	_	_	_	2	punct	_	_","you	_	PRON	PRP	_	_	3	nsubj	_	_
+'ve	_	AUX	VBP	_	_	3	aux	_	_
+eaten	_	VERB	VBN	_	_	0	root	_	_
+Sister	_	PROPN	NNP	_	_	6	compound	_	_
+Eileen	_	PROPN	NNP	_	_	4	flat	_	_
+chocolates	_	NOUN	NNS	_	_	3	obj	_	_
+?	_	PUNCT	.	_	_	3	punct	_	_"
+Charlotte's birthday .,"Charlotte's	_	_	_	_	_	2	nmod:poss	_	_
+birthday	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","Charlotte's	_	_	_	_	_	2	nmod:poss	_	_
+birthday	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","Charlotte	_	PROPN	NNP	_	_	3	nmod:poss	_	_
+'s	_	PART	POS	_	_	1	case	_	_
+birthday	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+get my train man .,"get	_	_	_	_	_	0	root	_	_
+my	_	_	_	_	_	4	nmod:poss	_	_
+train	_	_	_	_	_	4	compound	_	_
+man	_	_	_	_	_	1	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","get	_	_	_	_	_	0	root	_	_
+my	_	_	_	_	_	3	nmod:poss	_	_
+train	_	_	_	_	_	1	obj	_	_
+man	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","get	_	VERB	VB	_	_	0	root	_	_
+my	_	PRON	PRP$	_	_	4	nmod:poss	_	_
+train	_	NOUN	NN	_	_	4	compound	_	_
+man	_	NOUN	NN	_	_	1	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+not no no .,"not	_	_	_	_	_	2	advmod	_	_
+no	_	_	_	_	_	0	root	_	_
+no	_	_	_	_	_	2	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","not	_	_	_	_	_	3	advmod	_	_
+no	_	_	_	_	_	3	discourse	_	_
+no	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","not	_	PART	RB	_	_	2	advmod	_	_
+no	_	INTJ	UH	_	_	0	root	_	_
+no	_	INTJ	UH	_	_	2	discourse	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+choo choo choo .,"choo	_	_	_	_	_	0	root	_	_
+choo	_	_	_	_	_	1	conj	_	_
+choo	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	_	_	_	_	0	root	_	_
+choo	_	_	_	_	_	1	discourse	_	_
+choo	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	PROPN	NNP	_	_	0	root	_	_
+choo	_	PROPN	NNP	_	_	1	flat	_	_
+choo	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+no what Purdie .,"no	_	_	_	_	_	2	discourse	_	_
+what	_	_	_	_	_	0	root	_	_
+Purdie	_	_	_	_	_	2	vocative	_	_
+.	_	_	_	_	_	2	punct	_	_","no	_	_	_	_	_	2	det	_	_
+what	_	_	_	_	_	0	root	_	_
+Purdie	_	_	_	_	_	2	vocative	_	_
+.	_	_	_	_	_	2	punct	_	_","no	_	INTJ	UH	_	_	2	discourse	_	_
+what	_	PRON	WP	_	_	0	root	_	_
+Purdie	_	PROPN	NNP	_	_	2	vocative	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+my train driver man .,"my	_	_	_	_	_	3	nmod:poss	_	_
+train	_	_	_	_	_	3	compound	_	_
+driver	_	_	_	_	_	4	compound	_	_
+man	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","my	_	_	_	_	_	3	nmod:poss	_	_
+train	_	_	_	_	_	3	compound	_	_
+driver	_	_	_	_	_	0	root	_	_
+man	_	_	_	_	_	3	vocative	_	_
+.	_	_	_	_	_	3	punct	_	_","my	_	PRON	PRP$	_	_	4	nmod:poss	_	_
+train	_	NOUN	NN	_	_	3	compound	_	_
+driver	_	NOUN	NN	_	_	4	compound	_	_
+man	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+Sister Sister Eileen's dad .,"Sister	_	_	_	_	_	2	reparandum	_	_
+Sister	_	_	_	_	_	4	nmod:poss	_	_
+Eileen's	_	_	_	_	_	2	flat	_	_
+dad	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","Sister	_	_	_	_	_	3	nmod:desc	_	_
+Sister	_	_	_	_	_	3	nmod:desc	_	_
+Eileen's	_	_	_	_	_	4	nmod:poss	_	_
+dad	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","Sister	_	PROPN	NNP	_	_	5	nmod:poss	_	_
+Sister	_	PROPN	NNP	_	_	1	flat	_	_
+Eileen	_	PROPN	NNP	_	_	1	flat	_	_
+'s	_	PART	POS	_	_	1	case	_	_
+dad	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+where's my boxes ?,"where's	_	_	_	_	_	0	root	_	_
+my	_	_	_	_	_	3	nmod:poss	_	_
+boxes	_	_	_	_	_	1	nsubj	_	_
+?	_	_	_	_	_	1	punct	_	_","where's	_	_	_	_	_	0	root	_	_
+my	_	_	_	_	_	3	nmod:poss	_	_
+boxes	_	_	_	_	_	1	nsubj	_	_
+?	_	_	_	_	_	1	punct	_	_","where	_	ADV	WRB	_	_	0	root	_	_
+'s	_	AUX	VBZ	_	_	1	cop	_	_
+my	_	PRON	PRP$	_	_	4	nmod:poss	_	_
+boxes	_	NOUN	NNS	_	_	1	nsubj	_	_
+?	_	PUNCT	.	_	_	1	punct	_	_"
+it's a suitsuit .,"it's	_	_	_	_	_	3	cop	_	_
+a	_	_	_	_	_	3	det	_	_
+suitsuit	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","it's	_	_	_	_	_	3	cop	_	_
+a	_	_	_	_	_	3	det	_	_
+suitsuit	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","it	_	PRON	PRP	_	_	4	nsubj	_	_
+'s	_	AUX	VBZ	_	_	4	cop	_	_
+a	_	DET	DT	_	_	4	det	_	_
+suitsuit	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+over there is the suitsuit .,"over	_	_	_	_	_	2	advmod	_	_
+there	_	_	_	_	_	3	advmod	_	_
+is	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	5	det	_	_
+suitsuit	_	_	_	_	_	3	nsubj	_	_
+.	_	_	_	_	_	3	punct	_	_","over	_	_	_	_	_	2	advmod	_	_
+there	_	_	_	_	_	0	root	_	_
+is	_	_	_	_	_	2	cop	_	_
+the	_	_	_	_	_	5	det	_	_
+suitsuit	_	_	_	_	_	2	nsubj	_	_
+.	_	_	_	_	_	2	punct	_	_","over	_	ADV	RB	_	_	5	advmod	_	_
+there	_	PRON	EX	_	_	3	expl	_	_
+is	_	AUX	VBZ	_	_	5	cop	_	_
+the	_	DET	DT	_	_	5	det	_	_
+suitsuit	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+my Quaver's a suitsuit .,"my	_	_	_	_	_	2	nmod:poss	_	_
+Quaver's	_	_	_	_	_	4	nsubj	_	_
+a	_	_	_	_	_	4	det	_	_
+suitsuit	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","my	_	_	_	_	_	2	nmod:poss	_	_
+Quaver's	_	_	_	_	_	4	nsubj	_	_
+a	_	_	_	_	_	4	det	_	_
+suitsuit	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","my	_	PRON	PRP$	_	_	2	nmod:poss	_	_
+Quaver	_	PROPN	NNP	_	_	5	nsubj	_	_
+'s	_	AUX	VBZ	_	_	5	cop	_	_
+a	_	DET	DT	_	_	5	det	_	_
+suitsuit	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+Fireman Sam water .,"Fireman	_	_	_	_	_	3	compound	_	_
+Sam	_	_	_	_	_	1	flat	_	_
+water	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Fireman	_	_	_	_	_	2	nmod:desc	_	_
+Sam	_	_	_	_	_	3	compound	_	_
+water	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Fireman	_	NOUN	NN	_	_	3	compound	_	_
+Sam	_	PROPN	NNP	_	_	3	compound	_	_
+water	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+beebaa beebaa beebaa .,"beebaa	_	_	_	_	_	0	root	_	_
+beebaa	_	_	_	_	_	1	conj	_	_
+beebaa	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","beebaa	_	_	_	_	_	0	root	_	_
+beebaa	_	_	_	_	_	1	parataxis	_	_
+beebaa	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","beebaa	_	PROPN	NNP	_	_	0	root	_	_
+beebaa	_	PROPN	NNP	_	_	1	flat	_	_
+beebaa	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+Fireman Sam building a house .,"Fireman	_	_	_	_	_	3	nsubj	_	_
+Sam	_	_	_	_	_	1	flat	_	_
+building	_	_	_	_	_	0	root	_	_
+a	_	_	_	_	_	5	det	_	_
+house	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","Fireman	_	_	_	_	_	2	nmod:desc	_	_
+Sam	_	_	_	_	_	0	root	_	_
+building	_	_	_	_	_	2	parataxis	_	_
+a	_	_	_	_	_	5	det	_	_
+house	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","Fireman	_	PROPN	NNP	_	_	2	compound	_	_
+Sam	_	PROPN	NNP	_	_	3	nsubj	_	_
+building	_	VERB	VBG	_	_	0	root	_	_
+a	_	DET	DT	_	_	5	det	_	_
+house	_	NOUN	NN	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+and Daddy's six .,"and	_	_	_	_	_	3	cc	_	_
+Daddy's	_	_	_	_	_	3	nsubj	_	_
+six	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","and	_	_	_	_	_	3	cc	_	_
+Daddy's	_	_	_	_	_	3	nsubj	_	_
+six	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","and	_	CCONJ	CC	_	_	4	cc	_	_
+Daddy	_	PROPN	NNP	_	_	4	nmod:poss	_	_
+'s	_	PART	POS	_	_	2	case	_	_
+six	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+I I three .,"I	_	_	_	_	_	2	reparandum	_	_
+I	_	_	_	_	_	3	reparandum	_	_
+three	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","I	_	_	_	_	_	3	reparandum	_	_
+I	_	_	_	_	_	3	nsubj	_	_
+three	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","I	_	PRON	PRP	_	_	3	nsubj	_	_
+I	_	PRON	PRP	_	_	3	nsubj	_	_
+three	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+Noo Noo sweep it up .,"Noo	_	_	_	_	_	3	discourse	_	_
+Noo	_	_	_	_	_	1	conj	_	_
+sweep	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	3	obj	_	_
+up	_	_	_	_	_	3	compound:prt	_	_
+.	_	_	_	_	_	3	punct	_	_","Noo	_	_	_	_	_	3	discourse	_	_
+Noo	_	_	_	_	_	3	discourse	_	_
+sweep	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	3	obj	_	_
+up	_	_	_	_	_	3	compound:prt	_	_
+.	_	_	_	_	_	3	punct	_	_","Noo	_	INTJ	UH	_	_	3	discourse	_	_
+Noo	_	INTJ	UH	_	_	3	discourse	_	_
+sweep	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	3	obj	_	_
+up	_	ADP	RP	_	_	3	compound:prt	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+brown brown brown .,"brown	_	_	_	_	_	0	root	_	_
+brown	_	_	_	_	_	1	conj	_	_
+brown	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","brown	_	_	_	_	_	0	root	_	_
+brown	_	_	_	_	_	3	amod	_	_
+brown	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","brown	_	ADJ	JJ	_	_	3	amod	_	_
+brown	_	ADJ	JJ	_	_	3	amod	_	_
+brown	_	ADJ	JJ	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+my my my fireman my policeman .,"my	_	_	_	_	_	3	reparandum	_	_
+my	_	_	_	_	_	3	reparandum	_	_
+my	_	_	_	_	_	4	nmod:poss	_	_
+fireman	_	_	_	_	_	0	root	_	_
+my	_	_	_	_	_	6	nmod:poss	_	_
+policeman	_	_	_	_	_	4	conj	_	_
+.	_	_	_	_	_	4	punct	_	_","my	_	_	_	_	_	4	nmod:poss	_	_
+my	_	_	_	_	_	4	nmod:poss	_	_
+my	_	_	_	_	_	4	nmod:poss	_	_
+fireman	_	_	_	_	_	0	root	_	_
+my	_	_	_	_	_	6	nmod:poss	_	_
+policeman	_	_	_	_	_	4	parataxis	_	_
+.	_	_	_	_	_	4	punct	_	_","my	_	PRON	PRP$	_	_	4	nmod:poss	_	_
+my	_	PRON	PRP$	_	_	4	nmod:poss	_	_
+my	_	PRON	PRP$	_	_	4	nmod:poss	_	_
+fireman	_	NOUN	NN	_	_	0	root	_	_
+my	_	PRON	PRP$	_	_	6	nmod:poss	_	_
+policeman	_	NOUN	NN	_	_	4	appos	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+I've just got whiskers .,"I've	_	_	_	_	_	3	nsubj	_	_
+just	_	_	_	_	_	3	advmod	_	_
+got	_	_	_	_	_	0	root	_	_
+whiskers	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","I've	_	_	_	_	_	3	nsubj	_	_
+just	_	_	_	_	_	3	advmod	_	_
+got	_	_	_	_	_	0	root	_	_
+whiskers	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","I	_	PRON	PRP	_	_	4	nsubj	_	_
+'ve	_	AUX	VBP	_	_	4	aux	_	_
+just	_	ADV	RB	_	_	4	advmod	_	_
+got	_	VERB	VBN	_	_	0	root	_	_
+whiskers	_	NOUN	NNS	_	_	4	obj	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+Mummy a big sausage .,"Mummy	_	_	_	_	_	4	vocative	_	_
+a	_	_	_	_	_	4	det	_	_
+big	_	_	_	_	_	4	amod	_	_
+sausage	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","Mummy	_	_	_	_	_	4	vocative	_	_
+a	_	_	_	_	_	4	det	_	_
+big	_	_	_	_	_	4	amod	_	_
+sausage	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","Mummy	_	NOUN	NN	_	_	4	nsubj	_	_
+a	_	DET	DT	_	_	4	det	_	_
+big	_	ADJ	JJ	_	_	4	amod	_	_
+sausage	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+one two three four five .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	compound	_	_
+two	_	NUM	CD	_	_	3	compound	_	_
+three	_	NUM	CD	_	_	4	compound	_	_
+four	_	NUM	CD	_	_	5	nummod	_	_
+five	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+one two three four five .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	compound	_	_
+two	_	NUM	CD	_	_	3	compound	_	_
+three	_	NUM	CD	_	_	4	compound	_	_
+four	_	NUM	CD	_	_	5	nummod	_	_
+five	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+yum yummy yummy yummy .,"yum	_	_	_	_	_	0	root	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","yum	_	_	_	_	_	0	root	_	_
+yummy	_	_	_	_	_	1	parataxis	_	_
+yummy	_	_	_	_	_	4	amod	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","yum	_	INTJ	UH	_	_	4	discourse	_	_
+yummy	_	ADJ	JJ	_	_	4	amod	_	_
+yummy	_	ADJ	JJ	_	_	4	amod	_	_
+yummy	_	ADJ	JJ	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+yummy yummy yummy yummy yummy yummy .,"yummy	_	_	_	_	_	0	root	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","yummy	_	_	_	_	_	0	root	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+yummy	_	_	_	_	_	6	amod	_	_
+yummy	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","yummy	_	ADJ	JJ	_	_	6	amod	_	_
+yummy	_	ADJ	JJ	_	_	6	amod	_	_
+yummy	_	ADJ	JJ	_	_	6	amod	_	_
+yummy	_	ADJ	JJ	_	_	6	amod	_	_
+yummy	_	ADJ	JJ	_	_	6	amod	_	_
+yummy	_	ADJ	JJ	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	6	punct	_	_"
+have to go to Karen's house and play .,"have	_	_	_	_	_	0	root	_	_
+to	_	_	_	_	_	3	mark	_	_
+go	_	_	_	_	_	1	xcomp	_	_
+to	_	_	_	_	_	6	case	_	_
+Karen's	_	_	_	_	_	6	nmod:poss	_	_
+house	_	_	_	_	_	3	obl	_	_
+and	_	_	_	_	_	8	cc	_	_
+play	_	_	_	_	_	3	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","have	_	_	_	_	_	0	root	_	_
+to	_	_	_	_	_	3	mark	_	_
+go	_	_	_	_	_	1	xcomp	_	_
+to	_	_	_	_	_	6	case	_	_
+Karen's	_	_	_	_	_	6	nmod:poss	_	_
+house	_	_	_	_	_	3	obl	_	_
+and	_	_	_	_	_	8	cc	_	_
+play	_	_	_	_	_	3	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","have	_	VERB	VB	_	_	0	root	_	_
+to	_	PART	TO	_	_	3	mark	_	_
+go	_	VERB	VB	_	_	1	xcomp	_	_
+to	_	ADP	IN	_	_	7	case	_	_
+Karen	_	PROPN	NNP	_	_	7	nmod:poss	_	_
+'s	_	PART	POS	_	_	5	case	_	_
+house	_	NOUN	NN	_	_	3	obl	_	_
+and	_	CCONJ	CC	_	_	9	cc	_	_
+play	_	VERB	VB	_	_	3	conj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+roar roar roar roar .,"roar	_	_	_	_	_	0	root	_	_
+roar	_	_	_	_	_	1	conj	_	_
+roar	_	_	_	_	_	1	conj	_	_
+roar	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","roar	_	_	_	_	_	0	root	_	_
+roar	_	_	_	_	_	1	conj	_	_
+roar	_	_	_	_	_	4	compound	_	_
+roar	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","roar	_	NOUN	NN	_	_	4	compound	_	_
+roar	_	NOUN	NN	_	_	3	compound	_	_
+roar	_	NOUN	NN	_	_	4	compound	_	_
+roar	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+roar roar roar roar roar roar roar .,"roar	_	_	_	_	_	0	root	_	_
+roar	_	_	_	_	_	1	conj	_	_
+roar	_	_	_	_	_	1	conj	_	_
+roar	_	_	_	_	_	1	conj	_	_
+roar	_	_	_	_	_	1	conj	_	_
+roar	_	_	_	_	_	1	conj	_	_
+roar	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","roar	_	_	_	_	_	0	root	_	_
+roar	_	_	_	_	_	3	nsubj	_	_
+roar	_	_	_	_	_	4	nsubj	_	_
+roar	_	_	_	_	_	5	nsubj	_	_
+roar	_	_	_	_	_	7	nsubj	_	_
+roar	_	_	_	_	_	7	compound	_	_
+roar	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","roar	_	NOUN	NN	_	_	7	compound	_	_
+roar	_	NOUN	NN	_	_	7	compound	_	_
+roar	_	NOUN	NN	_	_	7	compound	_	_
+roar	_	NOUN	NN	_	_	7	compound	_	_
+roar	_	NOUN	NN	_	_	6	compound	_	_
+roar	_	NOUN	NN	_	_	7	compound	_	_
+roar	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	7	punct	_	_"
+roar roar roar .,"roar	_	_	_	_	_	0	root	_	_
+roar	_	_	_	_	_	1	conj	_	_
+roar	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","roar	_	_	_	_	_	0	root	_	_
+roar	_	_	_	_	_	3	compound	_	_
+roar	_	_	_	_	_	1	parataxis	_	_
+.	_	_	_	_	_	1	punct	_	_","roar	_	NOUN	NN	_	_	2	compound	_	_
+roar	_	NOUN	NN	_	_	3	compound	_	_
+roar	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+Mommy my card .,"Mommy	_	_	_	_	_	3	vocative	_	_
+my	_	_	_	_	_	3	nmod:poss	_	_
+card	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","Mommy	_	_	_	_	_	3	vocative	_	_
+my	_	_	_	_	_	3	nmod:poss	_	_
+card	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	1	punct	_	_","Mommy	_	INTJ	UH	_	_	3	discourse	_	_
+my	_	PRON	PRP$	_	_	3	nmod:poss	_	_
+card	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+but you you come here .,"but	_	_	_	_	_	4	cc	_	_
+you	_	_	_	_	_	3	reparandum	_	_
+you	_	_	_	_	_	4	nsubj	_	_
+come	_	_	_	_	_	0	root	_	_
+here	_	_	_	_	_	4	advmod	_	_
+.	_	_	_	_	_	4	punct	_	_","but	_	_	_	_	_	4	cc	_	_
+you	_	_	_	_	_	3	reparandum	_	_
+you	_	_	_	_	_	4	nsubj	_	_
+come	_	_	_	_	_	0	root	_	_
+here	_	_	_	_	_	4	advmod	_	_
+.	_	_	_	_	_	4	punct	_	_","but	_	CCONJ	CC	_	_	4	cc	_	_
+you	_	PRON	PRP	_	_	4	nsubj	_	_
+you	_	PRON	PRP	_	_	4	nsubj	_	_
+come	_	VERB	VBP	_	_	0	root	_	_
+here	_	ADV	RB	_	_	4	advmod	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+look at it's standing up .,"look	_	_	_	_	_	0	root	_	_
+at	_	_	_	_	_	1	obl	_	_
+it's	_	_	_	_	_	4	nsubj	_	_
+standing	_	_	_	_	_	1	parataxis	_	_
+up	_	_	_	_	_	4	compound:prt	_	_
+.	_	_	_	_	_	1	punct	_	_","look	_	_	_	_	_	0	root	_	_
+at	_	_	_	_	_	4	mark	_	_
+it's	_	_	_	_	_	4	nsubj	_	_
+standing	_	_	_	_	_	1	advcl	_	_
+up	_	_	_	_	_	4	compound:prt	_	_
+.	_	_	_	_	_	1	punct	_	_","look	_	VERB	VB	_	_	0	root	_	_
+at	_	ADP	IN	_	_	5	mark	_	_
+it	_	PRON	PRP	_	_	5	nsubj	_	_
+'s	_	AUX	VBZ	_	_	5	aux	_	_
+standing	_	VERB	VBG	_	_	1	advcl	_	_
+up	_	ADP	RP	_	_	5	compound:prt	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+or go tee tee on the floor .,"or	_	_	_	_	_	2	cc	_	_
+go	_	_	_	_	_	0	root	_	_
+tee	_	_	_	_	_	2	compound	_	_
+tee	_	_	_	_	_	2	compound	_	_
+on	_	_	_	_	_	7	case	_	_
+the	_	_	_	_	_	7	det	_	_
+floor	_	_	_	_	_	2	obl	_	_
+.	_	_	_	_	_	2	punct	_	_","or	_	_	_	_	_	2	cc	_	_
+go	_	_	_	_	_	0	root	_	_
+tee	_	_	_	_	_	4	compound	_	_
+tee	_	_	_	_	_	2	xcomp	_	_
+on	_	_	_	_	_	7	case	_	_
+the	_	_	_	_	_	7	det	_	_
+floor	_	_	_	_	_	4	nmod	_	_
+.	_	_	_	_	_	2	punct	_	_","or	_	CCONJ	CC	_	_	2	cc	_	_
+go	_	VERB	VB	_	_	0	root	_	_
+tee	_	NOUN	NN	_	_	4	compound	_	_
+tee	_	NOUN	NN	_	_	2	obj	_	_
+on	_	ADP	IN	_	_	7	case	_	_
+the	_	DET	DT	_	_	7	det	_	_
+floor	_	NOUN	NN	_	_	2	obl	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+so you could sew them ?,"so	_	_	_	_	_	4	mark	_	_
+you	_	_	_	_	_	4	nsubj	_	_
+could	_	_	_	_	_	4	aux	_	_
+sew	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	4	obj	_	_
+?	_	_	_	_	_	4	punct	_	_","so	_	_	_	_	_	4	advmod	_	_
+you	_	_	_	_	_	4	nsubj	_	_
+could	_	_	_	_	_	4	aux	_	_
+sew	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	4	obj	_	_
+?	_	_	_	_	_	4	punct	_	_","so	_	ADV	RB	_	_	4	advmod	_	_
+you	_	PRON	PRP	_	_	4	nsubj	_	_
+could	_	AUX	MD	_	_	4	aux	_	_
+sew	_	VERB	VB	_	_	0	root	_	_
+them	_	PRON	PRP	_	_	4	obj	_	_
+?	_	PUNCT	.	_	_	4	punct	_	_"
+I wanna taste of flour Daddy .,"I	_	_	_	_	_	2	nsubj	_	_
+wanna	_	_	_	_	_	0	root	_	_
+taste	_	_	_	_	_	2	xcomp	_	_
+of	_	_	_	_	_	5	case	_	_
+flour	_	_	_	_	_	3	nmod	_	_
+Daddy	_	_	_	_	_	2	vocative	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	_	_	_	_	2	nsubj	_	_
+wanna	_	_	_	_	_	0	root	_	_
+taste	_	_	_	_	_	2	xcomp	_	_
+of	_	_	_	_	_	5	case	_	_
+flour	_	_	_	_	_	3	nmod	_	_
+Daddy	_	_	_	_	_	3	vocative	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	PRON	PRP	_	_	2	nsubj	_	_
+wan	_	VERB	VBP	_	_	0	root	_	_
+na	_	PART	TO	_	_	4	mark	_	_
+taste	_	VERB	VB	_	_	2	xcomp	_	_
+of	_	ADP	IN	_	_	6	case	_	_
+flour	_	NOUN	NN	_	_	4	obl	_	_
+Daddy	_	PROPN	NNP	_	_	4	obl	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+Mom they still eating ?,"Mom	_	_	_	_	_	4	vocative	_	_
+they	_	_	_	_	_	4	nsubj	_	_
+still	_	_	_	_	_	4	advmod	_	_
+eating	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	4	punct	_	_","Mom	_	_	_	_	_	4	vocative	_	_
+they	_	_	_	_	_	4	nsubj	_	_
+still	_	_	_	_	_	4	advmod	_	_
+eating	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	4	punct	_	_","Mom	_	NOUN	NN	_	_	4	nsubj	_	_
+they	_	PRON	PRP	_	_	4	nsubj	_	_
+still	_	ADV	RB	_	_	4	advmod	_	_
+eating	_	VERB	VBG	_	_	0	root	_	_
+?	_	PUNCT	.	_	_	4	punct	_	_"
+Mom they still eating ?,"Mom	_	_	_	_	_	4	vocative	_	_
+they	_	_	_	_	_	4	nsubj	_	_
+still	_	_	_	_	_	4	advmod	_	_
+eating	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	4	punct	_	_","Mom	_	_	_	_	_	4	vocative	_	_
+they	_	_	_	_	_	4	nsubj	_	_
+still	_	_	_	_	_	4	advmod	_	_
+eating	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	4	punct	_	_","Mom	_	NOUN	NN	_	_	4	nsubj	_	_
+they	_	PRON	PRP	_	_	4	nsubj	_	_
+still	_	ADV	RB	_	_	4	advmod	_	_
+eating	_	VERB	VBG	_	_	0	root	_	_
+?	_	PUNCT	.	_	_	4	punct	_	_"
+that mine ?,"that	_	_	_	_	_	2	nsubj	_	_
+mine	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	2	punct	_	_","that	_	_	_	_	_	2	nsubj	_	_
+mine	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	2	punct	_	_","that	_	SCONJ	IN	_	_	2	mark	_	_
+mine	_	PRON	PRP	_	_	0	root	_	_
+?	_	PUNCT	.	_	_	2	punct	_	_"
+oh that yours ?,"oh	_	_	_	_	_	3	discourse	_	_
+that	_	_	_	_	_	3	nsubj	_	_
+yours	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	3	punct	_	_","oh	_	_	_	_	_	3	discourse	_	_
+that	_	_	_	_	_	3	nsubj	_	_
+yours	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	3	punct	_	_","oh	_	INTJ	UH	_	_	3	discourse	_	_
+that	_	SCONJ	IN	_	_	3	mark	_	_
+yours	_	PRON	PRP	_	_	0	root	_	_
+?	_	PUNCT	.	_	_	3	punct	_	_"
+that yours ?,"that	_	_	_	_	_	2	nsubj	_	_
+yours	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	2	punct	_	_","that	_	_	_	_	_	2	nsubj	_	_
+yours	_	_	_	_	_	0	root	_	_
+?	_	_	_	_	_	2	punct	_	_","that	_	SCONJ	IN	_	_	2	mark	_	_
+yours	_	PRON	PRP	_	_	0	root	_	_
+?	_	PUNCT	.	_	_	2	punct	_	_"
+don't beater it Mom !,"don't	_	_	_	_	_	2	aux	_	_
+beater	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+Mom	_	_	_	_	_	2	vocative	_	_
+!	_	_	_	_	_	2	punct	_	_","don't	_	_	_	_	_	2	advmod	_	_
+beater	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	2	obj	_	_
+Mom	_	_	_	_	_	2	vocative	_	_
+!	_	_	_	_	_	2	punct	_	_","do	_	AUX	VB	_	_	3	aux	_	_
+n't	_	PART	RB	_	_	3	advmod	_	_
+beater	_	VERB	VB	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	3	obj	_	_
+Mom	_	NOUN	NN	_	_	3	vocative	_	_
+!	_	PUNCT	.	_	_	3	punct	_	_"
+one two three four .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	compound	_	_
+two	_	NUM	CD	_	_	3	compound	_	_
+three	_	NUM	CD	_	_	4	nummod	_	_
+four	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+I have one two three four I have Mommy .,"I	_	_	_	_	_	2	nsubj	_	_
+have	_	_	_	_	_	0	root	_	_
+one	_	_	_	_	_	2	obj	_	_
+two	_	_	_	_	_	3	conj	_	_
+three	_	_	_	_	_	3	conj	_	_
+four	_	_	_	_	_	3	conj	_	_
+I	_	_	_	_	_	8	nsubj	_	_
+have	_	_	_	_	_	2	parataxis	_	_
+Mommy	_	_	_	_	_	8	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	_	_	_	_	2	nsubj	_	_
+have	_	_	_	_	_	0	root	_	_
+one	_	_	_	_	_	2	obj	_	_
+two	_	_	_	_	_	3	conj	_	_
+three	_	_	_	_	_	3	conj	_	_
+four	_	_	_	_	_	3	conj	_	_
+I	_	_	_	_	_	8	nsubj	_	_
+have	_	_	_	_	_	2	parataxis	_	_
+Mommy	_	_	_	_	_	8	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	PRON	PRP	_	_	2	nsubj	_	_
+have	_	VERB	VBP	_	_	0	root	_	_
+one	_	NUM	CD	_	_	6	nummod	_	_
+two	_	NUM	CD	_	_	6	nummod	_	_
+three	_	NUM	CD	_	_	6	nummod	_	_
+four	_	NUM	CD	_	_	2	obj	_	_
+I	_	PRON	PRP	_	_	8	nsubj	_	_
+have	_	VERB	VBP	_	_	6	acl:relcl	_	_
+Mommy	_	PROPN	NNP	_	_	8	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+shoo fly .,"shoo	_	_	_	_	_	0	root	_	_
+fly	_	_	_	_	_	1	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","shoo	_	_	_	_	_	2	discourse	_	_
+fly	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","shoo	_	VERB	VB	_	_	0	root	_	_
+fly	_	VERB	VB	_	_	1	xcomp	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+uhhuh our tiny cheese Dad .,"uhhuh	_	_	_	_	_	4	discourse	_	_
+our	_	_	_	_	_	4	nmod:poss	_	_
+tiny	_	_	_	_	_	4	amod	_	_
+cheese	_	_	_	_	_	0	root	_	_
+Dad	_	_	_	_	_	4	vocative	_	_
+.	_	_	_	_	_	4	punct	_	_","uhhuh	_	_	_	_	_	4	discourse	_	_
+our	_	_	_	_	_	4	nmod:poss	_	_
+tiny	_	_	_	_	_	4	amod	_	_
+cheese	_	_	_	_	_	0	root	_	_
+Dad	_	_	_	_	_	4	vocative	_	_
+.	_	_	_	_	_	4	punct	_	_","uhhuh	_	INTJ	UH	_	_	5	discourse	_	_
+our	_	PRON	PRP$	_	_	5	nmod:poss	_	_
+tiny	_	ADJ	JJ	_	_	5	amod	_	_
+cheese	_	NOUN	NN	_	_	5	compound	_	_
+Dad	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+I got tiny cheese cut it up okay ?,"I	_	_	_	_	_	2	nsubj	_	_
+got	_	_	_	_	_	0	root	_	_
+tiny	_	_	_	_	_	4	amod	_	_
+cheese	_	_	_	_	_	2	obj	_	_
+cut	_	_	_	_	_	2	parataxis	_	_
+it	_	_	_	_	_	5	obj	_	_
+up	_	_	_	_	_	5	compound:prt	_	_
+okay	_	_	_	_	_	5	discourse	_	_
+?	_	_	_	_	_	2	punct	_	_","I	_	_	_	_	_	2	nsubj	_	_
+got	_	_	_	_	_	0	root	_	_
+tiny	_	_	_	_	_	4	amod	_	_
+cheese	_	_	_	_	_	2	obj	_	_
+cut	_	_	_	_	_	2	parataxis	_	_
+it	_	_	_	_	_	5	obj	_	_
+up	_	_	_	_	_	5	compound:prt	_	_
+okay	_	_	_	_	_	5	discourse	_	_
+?	_	_	_	_	_	2	punct	_	_","I	_	PRON	PRP	_	_	2	nsubj	_	_
+got	_	VERB	VBD	_	_	0	root	_	_
+tiny	_	ADJ	JJ	_	_	4	amod	_	_
+cheese	_	NOUN	NN	_	_	2	obj	_	_
+cut	_	VERB	VB	_	_	2	xcomp	_	_
+it	_	PRON	PRP	_	_	5	obj	_	_
+up	_	ADP	RP	_	_	5	compound:prt	_	_
+okay	_	ADJ	JJ	_	_	5	xcomp	_	_
+?	_	PUNCT	.	_	_	2	punct	_	_"
+Mommy Mommy see that he's walking !,"Mommy	_	_	_	_	_	3	vocative	_	_
+Mommy	_	_	_	_	_	1	conj	_	_
+see	_	_	_	_	_	0	root	_	_
+that	_	_	_	_	_	6	mark	_	_
+he's	_	_	_	_	_	6	aux	_	_
+walking	_	_	_	_	_	3	ccomp	_	_
+!	_	_	_	_	_	3	punct	_	_","Mommy	_	_	_	_	_	3	discourse	_	_
+Mommy	_	_	_	_	_	3	vocative	_	_
+see	_	_	_	_	_	0	root	_	_
+that	_	_	_	_	_	6	mark	_	_
+he's	_	_	_	_	_	6	nsubj	_	_
+walking	_	_	_	_	_	3	ccomp	_	_
+!	_	_	_	_	_	3	punct	_	_","Mommy	_	PROPN	NNP	_	_	3	nsubj	_	_
+Mommy	_	PROPN	NNP	_	_	1	flat	_	_
+see	_	VERB	VB	_	_	0	root	_	_
+that	_	SCONJ	IN	_	_	7	mark	_	_
+he	_	PRON	PRP	_	_	7	nsubj	_	_
+'s	_	AUX	VBZ	_	_	7	aux	_	_
+walking	_	VERB	VBG	_	_	3	ccomp	_	_
+!	_	PUNCT	.	_	_	3	punct	_	_"
+a cat with her her broom .,"a	_	_	_	_	_	2	det	_	_
+cat	_	_	_	_	_	0	root	_	_
+with	_	_	_	_	_	6	case	_	_
+her	_	_	_	_	_	5	reparandum	_	_
+her	_	_	_	_	_	6	nmod:poss	_	_
+broom	_	_	_	_	_	2	nmod	_	_
+.	_	_	_	_	_	2	punct	_	_","a	_	_	_	_	_	2	det	_	_
+cat	_	_	_	_	_	0	root	_	_
+with	_	_	_	_	_	6	case	_	_
+her	_	_	_	_	_	6	nmod:poss	_	_
+her	_	_	_	_	_	6	nmod:poss	_	_
+broom	_	_	_	_	_	2	nmod	_	_
+.	_	_	_	_	_	2	punct	_	_","a	_	DET	DT	_	_	2	det	_	_
+cat	_	NOUN	NN	_	_	0	root	_	_
+with	_	ADP	IN	_	_	4	case	_	_
+her	_	PRON	PRP	_	_	2	nmod	_	_
+her	_	PRON	PRP$	_	_	6	nmod:poss	_	_
+broom	_	NOUN	NN	_	_	2	nmod	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+no don't say scab .,"no	_	_	_	_	_	3	discourse	_	_
+don't	_	_	_	_	_	3	aux	_	_
+say	_	_	_	_	_	0	root	_	_
+scab	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","no	_	_	_	_	_	3	discourse	_	_
+don't	_	_	_	_	_	3	advmod	_	_
+say	_	_	_	_	_	0	root	_	_
+scab	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","no	_	INTJ	UH	_	_	4	discourse	_	_
+do	_	AUX	VB	_	_	4	aux	_	_
+n't	_	PART	RB	_	_	4	advmod	_	_
+say	_	VERB	VB	_	_	0	root	_	_
+scab	_	NOUN	NN	_	_	4	obj	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+where's the little pictures ?,"where's	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	4	det	_	_
+little	_	_	_	_	_	4	amod	_	_
+pictures	_	_	_	_	_	1	nsubj	_	_
+?	_	_	_	_	_	1	punct	_	_","where's	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	4	det	_	_
+little	_	_	_	_	_	4	amod	_	_
+pictures	_	_	_	_	_	1	nsubj	_	_
+?	_	_	_	_	_	1	punct	_	_","where	_	ADV	WRB	_	_	0	root	_	_
+'s	_	AUX	VBZ	_	_	1	cop	_	_
+the	_	DET	DT	_	_	5	det	_	_
+little	_	ADJ	JJ	_	_	5	amod	_	_
+pictures	_	NOUN	NNS	_	_	1	nsubj	_	_
+?	_	PUNCT	.	_	_	1	punct	_	_"
+your a monster friend .,"your	_	_	_	_	_	4	nsubj	_	_
+a	_	_	_	_	_	4	det	_	_
+monster	_	_	_	_	_	4	compound	_	_
+friend	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","your	_	_	_	_	_	4	nmod:poss	_	_
+a	_	_	_	_	_	4	det	_	_
+monster	_	_	_	_	_	4	compound	_	_
+friend	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","your	_	PRON	PRP$	_	_	4	nmod:poss	_	_
+a	_	DET	DT	_	_	4	det	_	_
+monster	_	NOUN	NN	_	_	4	compound	_	_
+friend	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+choo choo .,"choo	_	_	_	_	_	0	root	_	_
+choo	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	_	_	_	_	0	root	_	_
+choo	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","choo	_	PROPN	NNP	_	_	0	root	_	_
+choo	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+a little doggy .,"a	_	_	_	_	_	3	det	_	_
+little	_	_	_	_	_	3	amod	_	_
+doggy	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","a	_	_	_	_	_	3	det	_	_
+little	_	_	_	_	_	3	amod	_	_
+doggy	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","a	_	DET	DT	_	_	2	det	_	_
+little	_	ADJ	JJ	_	_	3	obl:unmarked	_	_
+doggy	_	ADJ	JJ	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+a little doggy .,"a	_	_	_	_	_	3	det	_	_
+little	_	_	_	_	_	3	amod	_	_
+doggy	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","a	_	_	_	_	_	3	det	_	_
+little	_	_	_	_	_	3	amod	_	_
+doggy	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	3	punct	_	_","a	_	DET	DT	_	_	2	det	_	_
+little	_	ADJ	JJ	_	_	3	obl:unmarked	_	_
+doggy	_	ADJ	JJ	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+don't know !,"don't	_	_	_	_	_	2	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+!	_	_	_	_	_	2	punct	_	_","don't	_	_	_	_	_	2	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+!	_	_	_	_	_	2	punct	_	_","do	_	AUX	VBP	_	_	3	aux	_	_
+n't	_	PART	RB	_	_	3	advmod	_	_
+know	_	VERB	VB	_	_	0	root	_	_
+!	_	PUNCT	.	_	_	3	punct	_	_"
+don't know .,"don't	_	_	_	_	_	2	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","don't	_	_	_	_	_	2	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","do	_	AUX	VBP	_	_	3	aux	_	_
+n't	_	PART	RB	_	_	3	advmod	_	_
+know	_	VERB	VB	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+that's a silly affe .,"that's	_	_	_	_	_	4	nsubj	_	_
+a	_	_	_	_	_	4	det	_	_
+silly	_	_	_	_	_	4	amod	_	_
+affe	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","that's	_	_	_	_	_	4	nsubj	_	_
+a	_	_	_	_	_	4	det	_	_
+silly	_	_	_	_	_	4	amod	_	_
+affe	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","that	_	PRON	DT	_	_	5	nsubj	_	_
+'s	_	AUX	VBZ	_	_	5	cop	_	_
+a	_	DET	DT	_	_	5	det	_	_
+silly	_	ADJ	JJ	_	_	5	amod	_	_
+affe	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+Ben Charlotte's .,"Ben	_	_	_	_	_	0	root	_	_
+Charlotte's	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","Ben	_	_	_	_	_	0	root	_	_
+Charlotte's	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","Ben	_	PROPN	NNP	_	_	0	root	_	_
+Charlotte	_	PROPN	NNP	_	_	1	flat	_	_
+'s	_	PART	POS	_	_	1	case	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+don't know .,"don't	_	_	_	_	_	2	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","don't	_	_	_	_	_	2	aux	_	_
+know	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","do	_	AUX	VBP	_	_	3	aux	_	_
+n't	_	PART	RB	_	_	3	advmod	_	_
+know	_	VERB	VB	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+Purdie's fur .,"Purdie's	_	_	_	_	_	2	nmod:poss	_	_
+fur	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","Purdie's	_	_	_	_	_	2	nmod:poss	_	_
+fur	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","Purdie	_	PROPN	NNP	_	_	3	nmod:poss	_	_
+'s	_	PART	POS	_	_	1	case	_	_
+fur	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+"thought you'd gone upstairs , Purdie .","thought	_	_	_	_	_	0	root	_	_
+you'd	_	_	_	_	_	3	nsubj	_	_
+gone	_	_	_	_	_	1	ccomp	_	_
+upstairs	_	_	_	_	_	3	advmod	_	_
+,	_	_	_	_	_	1	vocative	_	_
+Purdie	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","thought	_	_	_	_	_	0	root	_	_
+you'd	_	_	_	_	_	3	nsubj	_	_
+gone	_	_	_	_	_	1	ccomp	_	_
+upstairs	_	_	_	_	_	3	advmod	_	_
+,	_	_	_	_	_	6	punct	_	_
+Purdie	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","thought	_	VERB	VBD	_	_	0	root	_	_
+you	_	PRON	PRP	_	_	4	nsubj	_	_
+'d	_	AUX	VBD	_	_	4	aux	_	_
+gone	_	VERB	VBN	_	_	1	ccomp	_	_
+upstairs	_	ADV	RB	_	_	4	advmod	_	_
+,	_	PUNCT	,	_	_	7	punct	_	_
+Purdie	_	PROPN	NNP	_	_	4	vocative	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+another firework I think .,"another	_	_	_	_	_	2	det	_	_
+firework	_	_	_	_	_	0	root	_	_
+I	_	_	_	_	_	4	nsubj	_	_
+think	_	_	_	_	_	2	parataxis	_	_
+.	_	_	_	_	_	4	punct	_	_","another	_	_	_	_	_	2	det	_	_
+firework	_	_	_	_	_	4	ccomp	_	_
+I	_	_	_	_	_	4	nsubj	_	_
+think	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	4	punct	_	_","another	_	DET	DT	_	_	2	det	_	_
+firework	_	NOUN	NN	_	_	0	root	_	_
+I	_	PRON	PRP	_	_	4	nsubj	_	_
+think	_	VERB	VBP	_	_	2	acl:relcl	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+"stop , Daddy .","stop	_	_	_	_	_	0	root	_	_
+,	_	_	_	_	_	1	obj	_	_
+Daddy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","stop	_	_	_	_	_	0	root	_	_
+,	_	_	_	_	_	3	punct	_	_
+Daddy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","stop	_	VERB	VB	_	_	0	root	_	_
+,	_	PUNCT	,	_	_	3	punct	_	_
+Daddy	_	PROPN	NNP	_	_	1	vocative	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+um the fire one fire engine .,"um	_	_	_	_	_	6	discourse	_	_
+the	_	_	_	_	_	6	det	_	_
+fire	_	_	_	_	_	6	reparandum	_	_
+one	_	_	_	_	_	3	nummod	_	_
+fire	_	_	_	_	_	6	compound	_	_
+engine	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	6	punct	_	_","um	_	_	_	_	_	6	discourse	_	_
+the	_	_	_	_	_	6	det	_	_
+fire	_	_	_	_	_	6	compound	_	_
+one	_	_	_	_	_	3	flat	_	_
+fire	_	_	_	_	_	6	compound	_	_
+engine	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	6	punct	_	_","um	_	INTJ	UH	_	_	6	discourse	_	_
+the	_	DET	DT	_	_	6	det	_	_
+fire	_	NOUN	NN	_	_	6	compound	_	_
+one	_	NUM	CD	_	_	6	nummod	_	_
+fire	_	NOUN	NN	_	_	6	compound	_	_
+engine	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	6	punct	_	_"
+Pip Pippin .,"Pip	_	_	_	_	_	0	root	_	_
+Pippin	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","Pip	_	_	_	_	_	0	root	_	_
+Pippin	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","Pip	_	PROPN	NNP	_	_	0	root	_	_
+Pippin	_	PROPN	NNP	_	_	1	flat	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+where's is the mom sheep ?,"where's	_	_	_	_	_	0	root	_	_
+is	_	_	_	_	_	1	cop	_	_
+the	_	_	_	_	_	5	det	_	_
+mom	_	_	_	_	_	5	compound	_	_
+sheep	_	_	_	_	_	2	nsubj	_	_
+?	_	_	_	_	_	2	punct	_	_","where's	_	_	_	_	_	0	root	_	_
+is	_	_	_	_	_	1	cop	_	_
+the	_	_	_	_	_	5	det	_	_
+mom	_	_	_	_	_	5	compound	_	_
+sheep	_	_	_	_	_	1	nsubj	_	_
+?	_	_	_	_	_	1	punct	_	_","where	_	ADV	WRB	_	_	0	root	_	_
+'s	_	AUX	VBZ	_	_	1	cop	_	_
+is	_	AUX	VBZ	_	_	1	cop	_	_
+the	_	DET	DT	_	_	6	det	_	_
+mom	_	NOUN	NN	_	_	6	compound	_	_
+sheep	_	NOUN	NNS	_	_	1	nsubj	_	_
+?	_	PUNCT	.	_	_	1	punct	_	_"
+the cow's don't go go in there .,"the	_	_	_	_	_	2	det	_	_
+cow's	_	_	_	_	_	5	nsubj	_	_
+don't	_	_	_	_	_	5	advmod	_	_
+go	_	_	_	_	_	5	reparandum	_	_
+go	_	_	_	_	_	0	root	_	_
+in	_	_	_	_	_	7	case	_	_
+there	_	_	_	_	_	5	obl	_	_
+.	_	_	_	_	_	5	punct	_	_","the	_	_	_	_	_	2	det	_	_
+cow's	_	_	_	_	_	4	nsubj	_	_
+don't	_	_	_	_	_	4	advmod	_	_
+go	_	_	_	_	_	0	root	_	_
+go	_	_	_	_	_	4	xcomp	_	_
+in	_	_	_	_	_	7	case	_	_
+there	_	_	_	_	_	5	obl	_	_
+.	_	_	_	_	_	5	punct	_	_","the	_	DET	DT	_	_	2	det	_	_
+cow	_	NOUN	NN	_	_	6	nsubj	_	_
+'s	_	PART	POS	_	_	2	case	_	_
+do	_	AUX	VB	_	_	6	aux	_	_
+n't	_	PART	RB	_	_	6	advmod	_	_
+go	_	VERB	VB	_	_	0	root	_	_
+go	_	VERB	VB	_	_	6	xcomp	_	_
+in	_	ADP	IN	_	_	9	case	_	_
+there	_	ADV	RB	_	_	7	obl	_	_
+.	_	PUNCT	.	_	_	6	punct	_	_"
+daddy's cow .,"daddy's	_	_	_	_	_	2	nmod:poss	_	_
+cow	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","daddy's	_	_	_	_	_	2	nmod:poss	_	_
+cow	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	2	punct	_	_","daddy	_	NOUN	NN	_	_	3	nmod:poss	_	_
+'s	_	PART	POS	_	_	1	case	_	_
+cow	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+can I open them up and she gets in ?,"can	_	_	_	_	_	3	aux	_	_
+I	_	_	_	_	_	3	nsubj	_	_
+open	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	3	obj	_	_
+up	_	_	_	_	_	3	compound:prt	_	_
+and	_	_	_	_	_	8	cc	_	_
+she	_	_	_	_	_	8	nsubj	_	_
+gets	_	_	_	_	_	3	conj	_	_
+in	_	_	_	_	_	8	advmod	_	_
+?	_	_	_	_	_	3	punct	_	_","can	_	_	_	_	_	3	aux	_	_
+I	_	_	_	_	_	3	nsubj	_	_
+open	_	_	_	_	_	0	root	_	_
+them	_	_	_	_	_	3	obj	_	_
+up	_	_	_	_	_	3	compound:prt	_	_
+and	_	_	_	_	_	8	cc	_	_
+she	_	_	_	_	_	8	nsubj	_	_
+gets	_	_	_	_	_	3	conj	_	_
+in	_	_	_	_	_	8	advmod	_	_
+?	_	_	_	_	_	3	punct	_	_","can	_	AUX	MD	_	_	3	aux	_	_
+I	_	PRON	PRP	_	_	3	nsubj	_	_
+open	_	VERB	VB	_	_	0	root	_	_
+them	_	PRON	PRP	_	_	3	obj	_	_
+up	_	ADP	RP	_	_	3	compound:prt	_	_
+and	_	CCONJ	CC	_	_	8	cc	_	_
+she	_	PRON	PRP	_	_	8	nsubj	_	_
+gets	_	VERB	VBZ	_	_	3	conj	_	_
+in	_	ADP	RP	_	_	8	compound:prt	_	_
+?	_	PUNCT	.	_	_	3	punct	_	_"
+right down here so we could play with them .,"right	_	_	_	_	_	3	advmod	_	_
+down	_	_	_	_	_	3	advmod	_	_
+here	_	_	_	_	_	0	root	_	_
+so	_	_	_	_	_	7	mark	_	_
+we	_	_	_	_	_	7	nsubj	_	_
+could	_	_	_	_	_	7	aux	_	_
+play	_	_	_	_	_	3	advcl	_	_
+with	_	_	_	_	_	9	case	_	_
+them	_	_	_	_	_	7	obl	_	_
+.	_	_	_	_	_	3	punct	_	_","right	_	_	_	_	_	3	advmod	_	_
+down	_	_	_	_	_	3	advmod	_	_
+here	_	_	_	_	_	0	root	_	_
+so	_	_	_	_	_	7	mark	_	_
+we	_	_	_	_	_	7	nsubj	_	_
+could	_	_	_	_	_	7	aux	_	_
+play	_	_	_	_	_	3	advcl	_	_
+with	_	_	_	_	_	9	case	_	_
+them	_	_	_	_	_	7	obl	_	_
+.	_	_	_	_	_	3	punct	_	_","right	_	ADV	RB	_	_	2	advmod	_	_
+down	_	ADV	RB	_	_	3	advmod	_	_
+here	_	ADV	RB	_	_	0	root	_	_
+so	_	SCONJ	IN	_	_	7	mark	_	_
+we	_	PRON	PRP	_	_	7	nsubj	_	_
+could	_	AUX	MD	_	_	7	aux	_	_
+play	_	VERB	VB	_	_	3	parataxis	_	_
+with	_	ADP	IN	_	_	9	case	_	_
+them	_	PRON	PRP	_	_	7	obl	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+two three four five .,"two	_	_	_	_	_	0	root	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","two	_	_	_	_	_	0	root	_	_
+three	_	_	_	_	_	1	conj	_	_
+four	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","two	_	NUM	CD	_	_	2	compound	_	_
+three	_	NUM	CD	_	_	3	compound	_	_
+four	_	NUM	CD	_	_	4	nummod	_	_
+five	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+one two three .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+three	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	3	nummod	_	_
+two	_	NUM	CD	_	_	3	nummod	_	_
+three	_	NUM	CD	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+empty it all out now .,"empty	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	1	obj	_	_
+all	_	_	_	_	_	2	det	_	_
+out	_	_	_	_	_	1	compound:prt	_	_
+now	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","empty	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	1	obj	_	_
+all	_	_	_	_	_	2	nmod:unmarked	_	_
+out	_	_	_	_	_	1	compound:prt	_	_
+now	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","empty	_	ADJ	JJ	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	1	obj	_	_
+all	_	DET	DT	_	_	1	advmod	_	_
+out	_	ADP	RP	_	_	1	compound:prt	_	_
+now	_	ADV	RB	_	_	1	advmod	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+empty it all .,"empty	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	1	obj	_	_
+all	_	_	_	_	_	2	det	_	_
+.	_	_	_	_	_	1	punct	_	_","empty	_	_	_	_	_	0	root	_	_
+it	_	_	_	_	_	1	obj	_	_
+all	_	_	_	_	_	2	nmod:unmarked	_	_
+.	_	_	_	_	_	1	punct	_	_","empty	_	ADJ	JJ	_	_	0	root	_	_
+it	_	PRON	PRP	_	_	1	obj	_	_
+all	_	DET	DT	_	_	1	advmod	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+get the crumbs out .,"get	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	3	det	_	_
+crumbs	_	_	_	_	_	1	obj	_	_
+out	_	_	_	_	_	1	compound:prt	_	_
+.	_	_	_	_	_	1	punct	_	_","get	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	3	det	_	_
+crumbs	_	_	_	_	_	1	obj	_	_
+out	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	1	punct	_	_","get	_	VERB	VB	_	_	0	root	_	_
+the	_	DET	DT	_	_	3	det	_	_
+crumbs	_	NOUN	NNS	_	_	1	obj	_	_
+out	_	ADP	RP	_	_	1	compound:prt	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+sweep sweep sweep the floor .,"sweep	_	_	_	_	_	3	reparandum	_	_
+sweep	_	_	_	_	_	1	conj	_	_
+sweep	_	_	_	_	_	0	root	_	_
+the	_	_	_	_	_	5	det	_	_
+floor	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	3	punct	_	_","sweep	_	_	_	_	_	0	root	_	_
+sweep	_	_	_	_	_	3	discourse	_	_
+sweep	_	_	_	_	_	1	parataxis	_	_
+the	_	_	_	_	_	5	det	_	_
+floor	_	_	_	_	_	3	obj	_	_
+.	_	_	_	_	_	1	punct	_	_","sweep	_	VERB	VB	_	_	0	root	_	_
+sweep	_	NOUN	NN	_	_	1	obj	_	_
+sweep	_	VERB	VB	_	_	1	xcomp	_	_
+the	_	DET	DT	_	_	5	det	_	_
+floor	_	NOUN	NN	_	_	3	obj	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+there there .,"there	_	_	_	_	_	0	root	_	_
+there	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","there	_	_	_	_	_	0	root	_	_
+there	_	_	_	_	_	1	advmod	_	_
+.	_	_	_	_	_	2	punct	_	_","there	_	ADV	RB	_	_	0	root	_	_
+there	_	ADV	RB	_	_	1	advmod	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+"watch , Mummy .","watch	_	_	_	_	_	0	root	_	_
+,	_	_	_	_	_	1	obj	_	_
+Mummy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","watch	_	_	_	_	_	0	root	_	_
+,	_	_	_	_	_	3	punct	_	_
+Mummy	_	_	_	_	_	1	vocative	_	_
+.	_	_	_	_	_	1	punct	_	_","watch	_	VERB	VB	_	_	0	root	_	_
+,	_	PUNCT	,	_	_	3	punct	_	_
+Mummy	_	PROPN	NNP	_	_	1	vocative	_	_
+.	_	PUNCT	.	_	_	1	punct	_	_"
+"I saw uh , this uh , pre , tend alligator .","I	_	_	_	_	_	2	nsubj	_	_
+saw	_	_	_	_	_	0	root	_	_
+uh	_	_	_	_	_	2	discourse	_	_
+,	_	_	_	_	_	3	fixed	_	_
+this	_	_	_	_	_	11	det	_	_
+uh	_	_	_	_	_	11	discourse	_	_
+,	_	_	_	_	_	6	conj	_	_
+pre	_	_	_	_	_	11	compound	_	_
+,	_	_	_	_	_	10	reparandum	_	_
+tend	_	_	_	_	_	11	compound	_	_
+alligator	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	_	_	_	_	2	nsubj	_	_
+saw	_	_	_	_	_	0	root	_	_
+uh	_	_	_	_	_	2	discourse	_	_
+,	_	_	_	_	_	3	punct	_	_
+this	_	_	_	_	_	11	det	_	_
+uh	_	_	_	_	_	10	discourse	_	_
+,	_	_	_	_	_	6	punct	_	_
+pre	_	_	_	_	_	10	reparandum	_	_
+,	_	_	_	_	_	8	punct	_	_
+tend	_	_	_	_	_	11	compound	_	_
+alligator	_	_	_	_	_	2	obj	_	_
+.	_	_	_	_	_	2	punct	_	_","I	_	PRON	PRP	_	_	2	nsubj	_	_
+saw	_	VERB	VBD	_	_	0	root	_	_
+uh	_	INTJ	UH	_	_	2	discourse	_	_
+,	_	PUNCT	,	_	_	3	punct	_	_
+this	_	DET	DT	_	_	11	det	_	_
+uh	_	INTJ	UH	_	_	11	discourse	_	_
+,	_	PUNCT	,	_	_	6	punct	_	_
+pre	_	INTJ	UH	_	_	10	discourse	_	_
+,	_	PUNCT	,	_	_	8	punct	_	_
+tend	_	VERB	VB	_	_	11	compound	_	_
+alligator	_	NOUN	NN	_	_	2	obj	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+mm mm mm .,"mm	_	_	_	_	_	0	root	_	_
+mm	_	_	_	_	_	1	flat	_	_
+mm	_	_	_	_	_	1	flat	_	_
+.	_	_	_	_	_	1	punct	_	_","mm	_	_	_	_	_	0	root	_	_
+mm	_	_	_	_	_	3	compound	_	_
+mm	_	_	_	_	_	1	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","mm	_	INTJ	UH	_	_	3	discourse	_	_
+mm	_	INTJ	UH	_	_	3	discourse	_	_
+mm	_	INTJ	UH	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	3	punct	_	_"
+"maybe this - maybe it's for , maybe it's dog cereal .","maybe	_	_	_	_	_	2	advmod	_	_
+this	_	_	_	_	_	0	root	_	_
+-	_	_	_	_	_	2	mark	_	_
+maybe	_	_	_	_	_	6	advmod	_	_
+it's	_	_	_	_	_	6	cop	_	_
+for	_	_	_	_	_	3	parataxis	_	_
+,	_	_	_	_	_	11	reparandum	_	_
+maybe	_	_	_	_	_	11	advmod	_	_
+it's	_	_	_	_	_	11	cop	_	_
+dog	_	_	_	_	_	11	compound	_	_
+cereal	_	_	_	_	_	2	parataxis	_	_
+.	_	_	_	_	_	2	punct	_	_","maybe	_	_	_	_	_	2	advmod	_	_
+this	_	_	_	_	_	6	reparandum	_	_
+-	_	_	_	_	_	2	punct	_	_
+maybe	_	_	_	_	_	6	advmod	_	_
+it's	_	_	_	_	_	6	nsubj	_	_
+for	_	_	_	_	_	11	reparandum	_	_
+,	_	_	_	_	_	6	punct	_	_
+maybe	_	_	_	_	_	11	advmod	_	_
+it's	_	_	_	_	_	11	cop	_	_
+dog	_	_	_	_	_	11	compound	_	_
+cereal	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	11	punct	_	_","maybe	_	ADV	RB	_	_	2	advmod	_	_
+this	_	PRON	DT	_	_	13	reparandum	_	_
+-	_	PUNCT	,	_	_	13	punct	_	_
+maybe	_	ADV	RB	_	_	6	advmod	_	_
+it	_	PRON	PRP	_	_	6	nsubj	_	_
+'s	_	AUX	VBZ	_	_	13	reparandum	_	_
+for	_	ADP	IN	_	_	13	reparandum	_	_
+,	_	PUNCT	,	_	_	7	punct	_	_
+maybe	_	ADV	RB	_	_	13	advmod	_	_
+it	_	PRON	PRP	_	_	13	nsubj	_	_
+'s	_	AUX	VBZ	_	_	13	cop	_	_
+dog	_	NOUN	NN	_	_	13	compound	_	_
+cereal	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	2	punct	_	_"
+because it - she's flying up and she's green .,"because	_	_	_	_	_	5	mark	_	_
+it	_	_	_	_	_	5	nsubj	_	_
+-	_	_	_	_	_	5	reparandum	_	_
+she's	_	_	_	_	_	5	aux	_	_
+flying	_	_	_	_	_	0	root	_	_
+up	_	_	_	_	_	5	advmod	_	_
+and	_	_	_	_	_	9	cc	_	_
+she's	_	_	_	_	_	9	cop	_	_
+green	_	_	_	_	_	5	conj	_	_
+.	_	_	_	_	_	5	punct	_	_","because	_	_	_	_	_	5	mark	_	_
+it	_	_	_	_	_	4	reparandum	_	_
+-	_	_	_	_	_	2	punct	_	_
+she's	_	_	_	_	_	5	nsubj	_	_
+flying	_	_	_	_	_	0	root	_	_
+up	_	_	_	_	_	5	advmod	_	_
+and	_	_	_	_	_	9	cc	_	_
+she's	_	_	_	_	_	9	nsubj	_	_
+green	_	_	_	_	_	5	conj	_	_
+.	_	_	_	_	_	5	punct	_	_","because	_	SCONJ	IN	_	_	6	mark	_	_
+it	_	PRON	PRP	_	_	6	reparandum	_	_
+-	_	PUNCT	,	_	_	2	punct	_	_
+she	_	PRON	PRP	_	_	6	nsubj	_	_
+'s	_	AUX	VBZ	_	_	6	aux	_	_
+flying	_	VERB	VBG	_	_	0	root	_	_
+up	_	ADP	RP	_	_	6	compound:prt	_	_
+and	_	CCONJ	CC	_	_	11	cc	_	_
+she	_	PRON	PRP	_	_	11	nsubj	_	_
+'s	_	AUX	VBZ	_	_	11	cop	_	_
+green	_	ADJ	JJ	_	_	6	conj	_	_
+.	_	PUNCT	.	_	_	6	punct	_	_"
+"a , a witch hat .","a	_	_	_	_	_	3	reparandum	_	_
+,	_	_	_	_	_	5	reparandum	_	_
+a	_	_	_	_	_	5	det	_	_
+witch	_	_	_	_	_	5	compound	_	_
+hat	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	5	punct	_	_","a	_	_	_	_	_	5	reparandum	_	_
+,	_	_	_	_	_	1	punct	_	_
+a	_	_	_	_	_	5	det	_	_
+witch	_	_	_	_	_	5	compound	_	_
+hat	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	5	punct	_	_","a	_	DET	DT	_	_	5	reparandum	_	_
+,	_	PUNCT	,	_	_	1	punct	_	_
+a	_	DET	DT	_	_	5	det	_	_
+witch	_	NOUN	NN	_	_	5	compound	_	_
+hat	_	NOUN	NN	_	_	0	root	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"
+yeah that's how witches are page .,"yeah	_	_	_	_	_	2	discourse	_	_
+that's	_	_	_	_	_	0	root	_	_
+how	_	_	_	_	_	6	mark	_	_
+witches	_	_	_	_	_	5	nsubj	_	_
+are	_	_	_	_	_	3	cop	_	_
+page	_	_	_	_	_	2	parataxis	_	_
+.	_	_	_	_	_	2	punct	_	_","yeah	_	_	_	_	_	3	discourse	_	_
+that's	_	_	_	_	_	6	cop	_	_
+how	_	_	_	_	_	0	root	_	_
+witches	_	_	_	_	_	6	nsubj:pass	_	_
+are	_	_	_	_	_	6	cop	_	_
+page	_	_	_	_	_	3	advcl:relcl	_	_
+.	_	_	_	_	_	3	punct	_	_","yeah	_	INTJ	UH	_	_	4	discourse	_	_
+that	_	PRON	DT	_	_	4	nsubj	_	_
+'s	_	AUX	VBZ	_	_	4	cop	_	_
+how	_	ADV	WRB	_	_	0	root	_	_
+witches	_	NOUN	NNS	_	_	7	nsubj	_	_
+are	_	AUX	VBP	_	_	7	cop	_	_
+page	_	NOUN	NN	_	_	4	advcl:relcl	_	_
+.	_	PUNCT	.	_	_	4	punct	_	_"
+it's on the they slide on their belly .,"it's	_	_	_	_	_	3	nsubj	_	_
+on	_	_	_	_	_	3	case	_	_
+the	_	_	_	_	_	0	root	_	_
+they	_	_	_	_	_	5	nsubj	_	_
+slide	_	_	_	_	_	3	parataxis	_	_
+on	_	_	_	_	_	8	case	_	_
+their	_	_	_	_	_	8	nmod:poss	_	_
+belly	_	_	_	_	_	5	obl	_	_
+.	_	_	_	_	_	3	punct	_	_","it's	_	_	_	_	_	3	nsubj	_	_
+on	_	_	_	_	_	5	reparandum	_	_
+the	_	_	_	_	_	5	reparandum	_	_
+they	_	_	_	_	_	5	nsubj	_	_
+slide	_	_	_	_	_	0	root	_	_
+on	_	_	_	_	_	8	case	_	_
+their	_	_	_	_	_	8	nmod:poss	_	_
+belly	_	_	_	_	_	5	obl	_	_
+.	_	_	_	_	_	5	punct	_	_","it	_	PRON	PRP	_	_	6	nsubj:outer	_	_
+'s	_	AUX	VBZ	_	_	6	cop	_	_
+on	_	ADP	IN	_	_	6	mark	_	_
+the	_	DET	DT	_	_	6	reparandum	_	_
+they	_	PRON	PRP	_	_	6	nsubj	_	_
+slide	_	VERB	VBP	_	_	0	root	_	_
+on	_	ADP	IN	_	_	9	case	_	_
+their	_	PRON	PRP$	_	_	9	nmod:poss	_	_
+belly	_	NOUN	NN	_	_	6	obl	_	_
+.	_	PUNCT	.	_	_	6	punct	_	_"
+one two five six seven eight nine ten for eleven and twelve .,"one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+six	_	_	_	_	_	1	conj	_	_
+seven	_	_	_	_	_	1	conj	_	_
+eight	_	_	_	_	_	1	conj	_	_
+nine	_	_	_	_	_	1	conj	_	_
+ten	_	_	_	_	_	1	conj	_	_
+for	_	_	_	_	_	10	case	_	_
+eleven	_	_	_	_	_	1	nmod	_	_
+and	_	_	_	_	_	12	cc	_	_
+twelve	_	_	_	_	_	10	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	_	_	_	_	0	root	_	_
+two	_	_	_	_	_	1	conj	_	_
+five	_	_	_	_	_	1	conj	_	_
+six	_	_	_	_	_	1	conj	_	_
+seven	_	_	_	_	_	1	conj	_	_
+eight	_	_	_	_	_	1	conj	_	_
+nine	_	_	_	_	_	1	conj	_	_
+ten	_	_	_	_	_	1	conj	_	_
+for	_	_	_	_	_	10	case	_	_
+eleven	_	_	_	_	_	1	nmod	_	_
+and	_	_	_	_	_	12	cc	_	_
+twelve	_	_	_	_	_	10	conj	_	_
+.	_	_	_	_	_	1	punct	_	_","one	_	NUM	CD	_	_	6	nummod	_	_
+two	_	NUM	CD	_	_	6	compound	_	_
+five	_	NUM	CD	_	_	6	compound	_	_
+six	_	NUM	CD	_	_	6	compound	_	_
+seven	_	NUM	CD	_	_	6	compound	_	_
+eight	_	NUM	CD	_	_	8	nummod	_	_
+nine	_	NUM	CD	_	_	8	nummod	_	_
+ten	_	NUM	CD	_	_	0	root	_	_
+for	_	ADP	IN	_	_	10	case	_	_
+eleven	_	NUM	CD	_	_	8	nmod	_	_
+and	_	CCONJ	CC	_	_	12	cc	_	_
+twelve	_	NUM	CD	_	_	10	conj	_	_
+.	_	PUNCT	.	_	_	8	punct	_	_"
+some more chickens I said .,"some	_	_	_	_	_	3	det	_	_
+more	_	_	_	_	_	3	amod	_	_
+chickens	_	_	_	_	_	0	root	_	_
+I	_	_	_	_	_	5	nsubj	_	_
+said	_	_	_	_	_	3	parataxis	_	_
+.	_	_	_	_	_	3	punct	_	_","some	_	_	_	_	_	3	det	_	_
+more	_	_	_	_	_	3	amod	_	_
+chickens	_	_	_	_	_	5	ccomp	_	_
+I	_	_	_	_	_	5	nsubj	_	_
+said	_	_	_	_	_	0	root	_	_
+.	_	_	_	_	_	5	punct	_	_","some	_	DET	DT	_	_	3	det	_	_
+more	_	ADJ	JJR	_	_	3	amod	_	_
+chickens	_	NOUN	NNS	_	_	0	root	_	_
+I	_	PRON	PRP	_	_	5	nsubj	_	_
+said	_	VERB	VBD	_	_	3	acl:relcl	_	_
+.	_	PUNCT	.	_	_	5	punct	_	_"

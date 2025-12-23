@@ -19,6 +19,7 @@ logs/
 log/
 *_test_treebanks
 wandb/
+parser_trained/
 
 params/*/*.json
 !params/*/default.json

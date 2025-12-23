@@ -13,10 +13,13 @@ Training of a Dependency Parser on golden UD annotation on English CHILDES
     - en_childes.test.in.conllu
 
 To train the tokenizer you run this command:
-`python -m stanza.utils.training.run_tokenize UD_English-EWT`
+`python -m stanza.utils.training.run_tokenize UD_English-CHILDES`
+
+To train the POS tagger you run this command:
+`python -m stanza.utils.training.run_pos UD_English-CHILDES`
 
 To train the parser you run this command:
-`python -m stanza.utils.training.run_depparse UD_English-EWT`
+`python -m stanza.utils.training.run_depparse UD_English-CHILDES`
 
 Create also the output folder for your trained models **save_models**.
 
@@ -70,7 +73,7 @@ The trained model is saved in the **parser/biaffine_combined** folder.
 
 4. Test a Supar model trained on first Combined English + CHILDES(silver) + CHILDES(gold)
 
-I take the trained model on teh Combined set of English UD and I use it as the input for the next phase of training.
+I take the trained model on the Combined set of English UD and I use it as the input for the next phase of training.
 I train on the CHILDES silver datasets (the original silver .connlu files can be found in the **UD_CHILDES_silver** folder); I generate the train/dev/test split, the code can be found in the */parser/merge_conllu_files.ipynb* notebook and the merged files in the **parser/silver_files_merged** folder.
 I use the *--checkpoint* argument while running the command from the terminal. As indicated by the code snipped below:
 
@@ -116,6 +119,7 @@ python3 -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en \
     --test UD_English-CHILDES/en_childes-ud-test.conllu  \
     --embed glove-6b-100   
 ```
+python3 -u -m supar.cmds.dep.crf2o evaluate -d 0 -p crf_combined_finetuned_only_golden/crf_combined_finetuned --data /Users/frapadovani/Desktop/CHILDES-Parser/UD_English-CHILDES/en_childes-ud-test.conllu --mbr --tree --proj
 
 
 
@@ -125,6 +129,7 @@ To evaluate the trained model you can use this command:
 `python -u -m supar.cmds.dep.biaffine evaluate -d 0 -p model_path --data test_file.connlu --tree  --proj`
 - crf 
 `python -u -m supar.cmds.dep.crf2o evaluate -d 0 -p model_path --data test_file.connlu --mbr --tree --proj`
+
 
 
 ## CONSTRUCTION CLASSIFICATION 
