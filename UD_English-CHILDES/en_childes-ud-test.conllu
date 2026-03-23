@@ -344,7 +344,7 @@
 # gold_annotation = True
 # child_age = 24.52617096860305
 # child_gender = male
-# speaker_role = Mother
+# speaker_role = Mother 
 # type = declarative
 # text = Alright Thomas let's put your shoes and socks on.
 1	Alright	alright	INTJ	UH	_	3	discourse	3:discourse	_

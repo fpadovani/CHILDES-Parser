@@ -35,7 +35,7 @@
 # $DATA_ROOT is a default home for where all the outputs from the
 #   preparation scripts will go.  The training scripts will then look
 #   for the stanza formatted data in that directory.
-export UDBASE=/Users/frapadovani/Desktop/stanza
+export UDBASE=/Users/frapadovani/Desktop/CHILDES-Parser
 export DATA_ROOT=./data
 export TOKENIZE_DATA_DIR=$DATA_ROOT/tokenize
 export MWT_DATA_DIR=$DATA_ROOT/mwt
@@ -49,4 +49,4 @@ export CONSTITUENCY_DATA_DIR=$DATA_ROOT/constituency
 export SENTIMENT_DATA_DIR=$DATA_ROOT/sentiment
 
 # Set directories to store external word vector data
-export WORDVEC_DIR=./extern_data/wordvec
+export WORDVEC_DIR=/$UDBASE/en
